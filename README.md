@@ -86,7 +86,7 @@ Create a compare equal arrow function inside `.filter()` function with `afceq`
 
 ![Filter](https://raw.githubusercontent.com/deinsoftware/vscode-arrow-snippets/main/.github/examples/example-filter.gif 'Filter')
 
-Create a response for `fetch` promise
+Create a response for `fetch` promise with `afrj` and `afrd`
 
 ![Filter](https://raw.githubusercontent.com/deinsoftware/vscode-arrow-snippets/main/.github/examples/example-promise.gif 'Promise')
 
