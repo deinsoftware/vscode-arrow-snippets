@@ -5,7 +5,7 @@
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/deinsoftware.arrow-function-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
 [![license](https://img.shields.io/github/license/deinsoftware/vscode-arrow-snippets)](LICENSE.md)
 
-![Arrow](https://raw.githubusercontent.com/deinsoftware/arrow-function-snippets/main/.github/social/preview.png 'Arrow Function Snippets')
+![Arrow](https://raw.githubusercontent.com/deinsoftware/vscode-arrow-snippets/main/.github/social/preview.png 'Arrow Function Snippets')
 
 The quick and easy way to create and use [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) with [VS Code](https://code.visualstudio.com/).
 
