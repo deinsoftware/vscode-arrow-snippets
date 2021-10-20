@@ -27,7 +27,7 @@ Or using the Visual Studio Marketplace: [Arrow Function Snippets](https://market
 
 ## Snippets
 
-Below is a list of all available snippets and the triggers of each one. The **⇥** means the `TAB` key and `█` means the final cursor position.
+Below is a list of all available snippets and the triggers of each one. The **→** means the `TAB` key and `█` means the final cursor position.
 
 ### Variables
 
