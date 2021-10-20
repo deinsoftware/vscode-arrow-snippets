@@ -3,8 +3,10 @@
 [![Version](https://vsmarketplacebadge.apphb.com/version/deinsoftware.arrow-function-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/deinsoftware.arrow-function-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/deinsoftware.arrow-function-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
+[![license](https://img.shields.io/github/license/deinsoftware/colorify)](LICENSE.md)
+[![Open in VS Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/deinsoftware/cronos)
 
-This extension contains code snippets to write [Arrow Functions][mdn] fast and easily.
+The quick and easy way to create and use [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) with [VS Code](https://code.visualstudio.com/).
 
 ## Installation
 
@@ -57,4 +59,36 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `afceq→` | compare equal       | `(element) => element.prop === value█` |
 | `afcne→` | compare not equal   | `(element) => element.prop !== value█` |
 
-[mdn]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+---
+
+## About
+
+### Built With
+
+- [VS Code](https://code.visualstudio.com/) - Code editing redefined.
+
+### Contributing
+
+Please read [CONTRIBUTING](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+### Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [Cronos](https://github.com/deinsoftware/cronos/tags) on GitHub.
+
+### Authors
+
+- **Camilo Martinez** [[Equiman](http://stackoverflow.com/story/equiman)]
+
+See also the list of [contributors](https://github.com/deinsoftware/cronos/contributors) who participated in this project.
+
+### Sponsors
+
+If this project helps you, consider buying me a cup of coffee.
+
+[![paypal](https://img.shields.io/badge/-PayPal-gray?style=flat&labelColor=00457C&logo=paypal&logoColor=white&link=https://paypal.me/equiman/3)](https://paypal.me/equiman/3)
+[![patreon](https://img.shields.io/badge/-Patreon-gray?style=flat&labelColor=052d49&logo=patreon&logoColor=F96854&link=https://patreon.com/equiman)](https://patreon.com/equiman)
+[![buymeacoffee](https://img.shields.io/badge/-Buy%20Me%20A%20Coffee-gray?style=flat&labelColor=FF813F&logo=buy-me-a-coffee&logoColor=white&link=https://buymeacoff.ee/equiman)](https://buymeacoff.ee/equiman)
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
