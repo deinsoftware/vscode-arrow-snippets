@@ -4,6 +4,21 @@
     "body": "let ${1:name} = $0",
     "description": "Let Variable"
   },
+  "letString (JS)": {
+    "prefix": "cs",
+    "body": "let ${1:stringName} = '$0'",
+    "description": "Let String"
+  },
+  "letObject (JS)": {
+    "prefix": "co",
+    "body": "let ${1:objectName} = {$0}",
+    "description": "Let Object"
+  },
+  "letArray (JS)": {
+    "prefix": "ca",
+    "body": "let ${1:arrayName} = [$0]",
+    "description": "Let Array"
+  },
   "constantVariable (JS)": {
     "prefix": "cv",
     "body": "const ${1:name} = $0",
@@ -11,15 +26,15 @@
   },
   "constantString (JS)": {
     "prefix": "cs",
-    "body": "const ${1:stringtName} = '$0'",
+    "body": "const ${1:stringName} = '$0'",
     "description": "Constant String"
   },
-  "constatnObject (JS)": {
+  "constantObject (JS)": {
     "prefix": "co",
     "body": "const ${1:objectName} = {$0}",
     "description": "Constant Object"
   },
-  "constatnArray (JS)": {
+  "constantArray (JS)": {
     "prefix": "ca",
     "body": "const ${1:arrayName} = [$0]",
     "description": "Constant Array"

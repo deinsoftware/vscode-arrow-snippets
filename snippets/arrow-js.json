@@ -11,32 +11,32 @@
   },
   "arrowFunctionExplicit": {
     "prefix": "afe",
-    "body": ["() => {", "  \treturn $0", "};"],
+    "body": ["() => {", "  \treturn $0", "}"],
     "description": "Arrow function (explicit return)"
   },
   "arrowFunctionExplicitArguments": {
     "prefix": "afea",
-    "body": ["(${1:arg}) => {", "  \treturn {$0:arg}", "};"],
+    "body": ["(${1:arg}) => {", "  \treturn {$0:arg}", "}"],
     "description": "Arrow function (explicit return) with arguments"
   },
   "arrowFunctionParentesis": {
     "prefix": "afp",
-    "body": ["() => {", "  \t( {$0:arg} )", "};"],
+    "body": ["() => {", "  \t( {$0:arg} )", "}"],
     "description": "Arrow function (explicit without return)"
   },
-  "arrowFunctionEParentesisArguments": {
+  "arrowFunctionParentesisArguments": {
     "prefix": "afpa",
-    "body": ["(${1:arg}) => {", "  \t( {$0:arg} )", "};"],
+    "body": ["(${1:arg}) => {", "  \t( {$0:arg} )", "}"],
     "description": "Arrow function (explicit without return) with arguments"
   },
-  "arrowFunctionFilterEqual": {
-    "prefix": "affeq",
+  "arrowFunctionCompareEqual": {
+    "prefix": "afceq",
     "body": "(${1:element}) => ${1:element}.${2:prop} === ${0:value}",
-    "description": "Arrow function (implicit return) filter elements"
+    "description": "Arrow function (implicit return) compare equal"
   },
-  "arrowFunctionFilterNotEqual": {
-    "prefix": "affne",
+  "arrowFunctionCompareNotEqual": {
+    "prefix": "afcne",
     "body": "(${1:element}) => ${1:element}.${2:prop} !== ${0:value}",
-    "description": "Arrow function (implicit return) filter elements"
+    "description": "Arrow function (implicit return) compare not equal"
   }
 }

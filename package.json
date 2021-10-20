@@ -2,8 +2,8 @@
   "name": "arrow-function-snippets",
   "description": "VS Code Arrow function snippets for JS and TS",
   "version": "1.0.0",
-  "displayName": "Arrow Functions Snippets",
-  "publisher": "equiman",
+  "displayName": "Arrow Function Snippets",
+  "publisher": "deinsoftware",
   "icon": "images/icon.png",
   "keywords": [
     "snippets",
@@ -23,6 +23,7 @@
   "categories": [
     "Snippets"
   ],
+  "main": "./out/extension.js",
   "extensionKind": [
     "ui",
     "workspace"
