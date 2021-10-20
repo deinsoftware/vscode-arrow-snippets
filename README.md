@@ -38,14 +38,17 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Arrow Function
 
-|  Trigger | Description                         | Result                 |
-| -------: | ----------------------------------- | ---------------------- |
-|    `af→` | simple without args                 | `() => █`              |
-|   `afa→` | simple with arg(s)                  | `(arg) => █`           |
-|   `afe→` | explicit return                     | `() => { return █ }`   |
-|  `afea→` | explicit return with arg(s)         | `(arg) => { return █ }`|
-|   `afp→` | explicit with parentesis            | `() => { (█) }`        |
-|  `afpa→` | explicit with parentesis and arg(s) | `(arg) => { (█) }`     |
+|  Trigger | Description                         | Result                      |
+| -------: | ----------------------------------- | --------------------------- |
+|    `af→` | implicit return without args        | `() => █`                   |
+|   `afa→` | implicit return with arg(s)         | `(arg) => █`                |
+|   `afo→` | implicit return object              | `() => ({prop: value█})`    |
+|  `afoa→` | implicit return object with arg(s)  | `(arg) => ({prop: value█})` |
+|   `afe→` | explicit return                     | `() => { return █ }`        |
+|  `afea→` | explicit return with arg(s)         | `(arg) => { return █ }`     |
+|   `afp→` | explicit with parentesis            | `() => { (█) }`             |
+|  `afpa→` | explicit with parentesis and arg(s) | `(arg) => { (█) }`          |
+|  `iiaf→` | immediately invoque                 | `(() => █)()`               |
 
 ### Helpers
 
