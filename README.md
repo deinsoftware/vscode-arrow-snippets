@@ -5,13 +5,15 @@
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/deinsoftware.arrow-function-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
 [![license](https://img.shields.io/github/license/deinsoftware/vscode-arrow-snippets)](LICENSE.md)
 
+![Arrow](https://raw.githubusercontent.com/deinsoftware/arrow-function-snippets/main/.github/social/preview.png 'Arrow Function Snippets')
+
 The quick and easy way to create and use [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) with [VS Code](https://code.visualstudio.com/).
 
 ## Installation
 
-In order to install an extension you need to launch the Command Palette with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Win/Linux) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (macOS) and type `Extensions`.
+Open the Extension manager with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> (Win/Linux) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> (macOS), search for `deinsoftware.arrow-function-snippets` and click on [Install] button.
 
-There you have either the option to show the already installed snippets or install new ones.
+Or using the Visual Studio Marketplace: [Arrow Function Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
 
 ## Supported languages (file extensions)
 
@@ -77,6 +79,7 @@ Below is a list of all available snippets and the triggers of each one. The **â‡
 ### Built With
 
 - [VS Code](https://code.visualstudio.com/) - Code editing redefined.
+- [Figma](https://www.figma.com/) - The collaborative interface design tool.
 
 ### Contributing
 

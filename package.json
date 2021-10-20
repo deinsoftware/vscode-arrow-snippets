@@ -1,16 +1,17 @@
 {
   "name": "arrow-function-snippets",
   "description": "VS Code Arrow function snippets for JS and TS",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "displayName": "Arrow Function Snippets",
   "publisher": "deinsoftware",
-  "icon": "images/icon.png",
+  "icon": "images/light-icon.png",
   "keywords": [
+    "arrow-function",
     "snippets",
-    "react",
     "javascript",
     "typescript",
-    "arrow"
+    "react",
+    "vue"
   ],
   "license": "MIT",
   "repository": {
