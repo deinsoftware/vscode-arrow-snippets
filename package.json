@@ -1,7 +1,7 @@
 {
   "name": "arrow-function-snippets",
   "description": "VS Code Arrow function snippets for JS and TS",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Arrow Function Snippets",
   "publisher": "deinsoftware",
   "icon": "images/icon.png",
@@ -34,6 +34,14 @@
   "contributes": {
     "snippets": [
       {
+        "language": "javascript",
+        "path": "./snippets/var-js.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/arrow-js.json"
+      },
+      {
         "language": "javascriptreact",
         "path": "./snippets/var-js.json"
       },
@@ -42,11 +50,11 @@
         "path": "./snippets/arrow-js.json"
       },
       {
-        "language": "javascript",
+        "language": "vue",
         "path": "./snippets/var-js.json"
       },
       {
-        "language": "javascript",
+        "language": "vue",
         "path": "./snippets/arrow-js.json"
       },
       {

@@ -46,11 +46,22 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |   `afa→` | implicit return with arg(s)         | `(arg) => █`                |
 |   `afo→` | implicit return object              | `() => ({prop: value█})`    |
 |  `afoa→` | implicit return object with arg(s)  | `(arg) => ({prop: value█})` |
-|   `afe→` | explicit return                     | `() => { return █ }`        |
-|  `afea→` | explicit return with arg(s)         | `(arg) => { return █ }`     |
-|   `afp→` | explicit with parentesis            | `() => { (█) }`             |
-|  `afpa→` | explicit with parentesis and arg(s) | `(arg) => { (█) }`          |
+|   `afe→` | explicit return                     | <code>() => {<br>&nbsp;&nbsp;return █<br>}</code>        |
+|  `afea→` | explicit return with arg(s)         | <code>(arg) => {<br>&nbsp;&nbsp;return █<br>}</code>     |
+|   `afp→` | explicit with parentesis            | <code>() => {<br>&nbsp;&nbsp;(█)<br>}</code>             |
+|  `afpa→` | explicit with parentesis and arg(s) | <code>(arg) => {<br>&nbsp;&nbsp;(█)<br>}</code>          |
 |  `iiaf→` | immediately invoque                 | `(() => █)()`               |
+
+### Promises
+
+|  Trigger | Description                         | Result                           |
+| -------: | ----------------------------------- | -------------------------------- |
+|   `afr→` | implicit return response            | `(response) => █`                |
+|  `afrj→` | implicit return response json       | `(response) => response.json()█` |
+|  `afrd→` | implicit return response data       | `(response) => response.data█`   |
+|  `afer→` | explicit return response            | <code>(response) => {<br>&nbsp;&nbsp;return █<br>}</code> |
+| `aferj→` | explicit return response json       | <code>(response) => {<br>&nbsp;&nbsp;return response.json()<br>}█</code> |
+| `aferd→` | explicit return response data       | <code>(response) => {<br>&nbsp;&nbsp;return response.data<br>}█</code> |
 
 ### Helpers
 
