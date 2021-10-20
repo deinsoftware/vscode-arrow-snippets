@@ -1,0 +1,69 @@
+{
+  "name": "arrow-function-snippets",
+  "description": "VS Code Arrow function snippets for JS and TS",
+  "version": "1.0.0",
+  "displayName": "Arrow Functions Snippets",
+  "publisher": "equiman",
+  "icon": "images/icon.png",
+  "keywords": [
+    "snippets",
+    "react",
+    "javascript",
+    "typescript",
+    "arrow"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deinsoftware/vscode-arrow-snippets"
+  },
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "activationEvents": [
+    "onCommand:extension.snippetSearch"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/var-js.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/arrow-js.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/var-js.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/arrow-js.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/var-ts.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/arrow-js.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/var-ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/arrow-js.json"
+      }
+    ]
+  }
+}

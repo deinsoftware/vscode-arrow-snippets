@@ -1,0 +1,12 @@
+{
+  "constantVariable (TS)": {
+    "prefix": "cv",
+    "body": "const ${1:name} = $0",
+    "description": "Constant Variable"
+  },
+  "constantString (TS)": {
+    "prefix": "cs",
+    "body": "const ${1:stringtName} = '$0'",
+    "description": "Constant String"
+  }
+}

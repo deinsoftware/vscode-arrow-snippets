@@ -1,0 +1,27 @@
+{
+  "letVariable": {
+    "prefix": "lv",
+    "body": "let ${1:name} = $0",
+    "description": "Let Variable"
+  },
+  "constantVariable (JS)": {
+    "prefix": "cv",
+    "body": "const ${1:name} = $0",
+    "description": "Constant Variable"
+  },
+  "constantString (JS)": {
+    "prefix": "cs",
+    "body": "const ${1:stringtName} = '$0'",
+    "description": "Constant String"
+  },
+  "constatnObject (JS)": {
+    "prefix": "co",
+    "body": "const ${1:objectName} = {$0}",
+    "description": "Constant Object"
+  },
+  "constatnArray (JS)": {
+    "prefix": "ca",
+    "body": "const ${1:arrayName} = [$0]",
+    "description": "Constant Array"
+  }
+}
