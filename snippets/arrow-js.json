@@ -16,12 +16,12 @@
   },
   "arrowFunctionResponseJson": {
     "prefix": "afrj",
-    "body": "(${1:response}) => ${1:response.json()}$0",
+    "body": "(${1:response}) => ${1:response}.json()$0",
     "description": "Arrow function (implicit return) response json"
   },
   "arrowFunctionResponseData": {
     "prefix": "afrd",
-    "body": "(${1:response}) => ${1:response.data}$0",
+    "body": "(${1:response}) => ${1:response}.data$0",
     "description": "Arrow function (implicit return) response data"
   },
   "arrowFunctionObject": {
