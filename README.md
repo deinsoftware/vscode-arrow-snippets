@@ -23,6 +23,8 @@ Or using the Visual Studio Marketplace: [Arrow Function Snippets](https://market
 - TypeScript React (.tsx)
 - Vue (.vue)
 
+---
+
 ## Snippets
 
 Below is a list of all available snippets and the triggers of each one. The **⇥** means the `TAB` key and `█` means the final cursor position.
@@ -71,6 +73,22 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | -------: | ----------------------------------- | ---------------------- |
 | `afceq→` | compare equal       | `(element) => element.prop === value█` |
 | `afcne→` | compare not equal   | `(element) => element.prop !== value█` |
+
+---
+
+## Examples
+
+Create a named arrow function combining `cv` and `af`
+
+![Function](https://raw.githubusercontent.com/deinsoftware/vscode-arrow-snippets/main/.github/examples/example-function.gif 'Function')
+
+Create a compare equal arrow function inside `.filter()` function with `afceq`
+
+![Filter](https://raw.githubusercontent.com/deinsoftware/vscode-arrow-snippets/main/.github/examples/example-filter.gif 'Filter')
+
+Create a response for `fetch` promise
+
+![Filter](https://raw.githubusercontent.com/deinsoftware/vscode-arrow-snippets/main/.github/examples/example-promise.gif 'Promise')
 
 ---
 
