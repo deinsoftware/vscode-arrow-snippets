@@ -9,19 +9,58 @@
 
 The quick and easy way to create and use [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) with [VS Code](https://code.visualstudio.com/).
 
+## Menu
+
+- [Installation](#installation)
+  - [Quick Launch](#quick-launch)
+  - [Extension Manager](#extension-manager)
+  - [Marketplace](#marketplace)
+- [Supported Languages](#supported-languages)
+- [Snippets](#snippets)
+  - [Variables](#variables)
+  - [Arrow Function](#arrow-function)
+  - [Promises](#promises)
+  - [Helpers](#helpers)
+- [Examples](#examples)
+- [About](#about)
+
+---
+
 ## Installation
 
-Open the Extension manager with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> (Win/Linux) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> (macOS), search for `deinsoftware.arrow-function-snippets` and click on [Install] button.
+### Quick Launch
 
-Or using the Visual Studio Marketplace: [Arrow Function Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
+Open the quick launch with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>P</kbd> (Win/Linux) or <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>P</kbd> (macOS).
 
-## Supported languages (file extensions)
+Paste the following command and press `Enter`:
 
-- JavaScript (.js)
-- TypeScript (.ts)
-- JavaScript React (.jsx)
-- TypeScript React (.tsx)
-- Vue (.vue)
+```shell
+ext install deinsoftware.arrow-function-snippets
+```
+
+### Extension Manager
+
+Open the extension manager with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>X</kbd> (Win/Linux) or <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>X</kbd> (macOS), search for `Arrow Function Snippets` and click on `[Install]` button.
+
+### Marketplace
+
+[Arrow Function Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
+
+⇧ [Back to menu](#menu)
+
+---
+
+## Supported Languages
+
+| Language         | Extension |
+| ---------------- | --------- |
+| JavaScript       | `.js`     |
+| TypeScript       | `.ts`     |
+| JavaScript React | `.jsx`    |
+| TypeScript React | `.tsx`    |
+| Vue              | `.vue`    |
+
+⇧ [Back to menu](#menu)
 
 ---
 
@@ -74,6 +113,8 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `afceq→` | compare equal       | `(element) => element.prop === value█` |
 | `afcne→` | compare not equal   | `(element) => element.prop !== value█` |
 
+⇧ [Back to menu](#menu)
+
 ---
 
 ## Examples
@@ -89,6 +130,8 @@ Create a compare equal arrow function inside `.filter()` function with `afceq`
 Create a response for `fetch` promise with `afrj` and `afrd`
 
 ![Filter](https://raw.githubusercontent.com/deinsoftware/vscode-arrow-snippets/main/.github/examples/example-promise.gif 'Promise')
+
+⇧ [Back to menu](#menu)
 
 ---
 
@@ -124,3 +167,5 @@ If this project helps you, consider buying me a cup of coffee.
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
+⇧ [Back to menu](#menu)
