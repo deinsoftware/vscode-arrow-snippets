@@ -21,12 +21,12 @@
   },
   "parameterDestructuring": {
     "prefix": "pd",
-    "body": "{${2:prop}, ${3:prop}$0} = ${1:name}",
+    "body": "{${1:prop}, ${2:prop}$0}",
     "description": "Parameter Destructuring"
   },
   "parameterObjectDestructuringWithRest": {
     "prefix": "pdr",
-    "body": "{${2:prop}, ${3:prop}, ...rest$0} = ${1:name}",
+    "body": "{${1:prop}, ${2:prop}, ...rest$0}",
     "description": "Parameter Destructuring Rest"
   }
 }

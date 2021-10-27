@@ -93,8 +93,8 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |  `codr→` | const object dest with rest     | `const {prop, prop, ...rest} = name█` |
 |   `cad→` | const array dest                | `const [prop, prop] = name█`          |
 |  `cadr→` | const array dest with rest      | `const [prop, prop, ...rest] = name█` |
-|    `pd→` | parameter object dest           | `{prop, prop█} = name`                |
-|   `pdr→` | parameter object dest with rest | `{prop, prop, ...rest█} = name`       |
+|    `pd→` | parameter object dest           | `{prop, prop█}`                       |
+|   `pdr→` | parameter object dest with rest | `{prop, prop, ...rest█}`              |
 
 ### Arrow Function
 
