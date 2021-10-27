@@ -9,6 +9,42 @@
     "body": "(${1:arg}) => $0",
     "description": "Arrow function (implicit return) with arguments"
   },
+  "arrowFunctionObject": {
+    "prefix": "afo",
+    "body": "() =>  ( { ${1:prop}:${0:value}} )",
+    "description": "Arrow function (object literal implicit return)"
+  },
+  "arrowFunctionObjectWithArguments": {
+    "prefix": "afoa",
+    "body": "(${1:arg}) => ( { ${2:prop}:${0:value}} )",
+    "description": "Arrow function (object literal implicit return) with arguments"
+  },
+  "arrowFunctionExplicit": {
+    "prefix": "afe",
+    "body": ["() => {", "\treturn $0", "}"],
+    "description": "Arrow function (explicit return)"
+  },
+  "arrowFunctionExplicitWithArguments": {
+    "prefix": "afea",
+    "body": ["(${1:arg}) => {", "\treturn ${0}", "}"],
+    "description": "Arrow function (explicit return) with arguments"
+  },
+  "arrowFunctionParentesis": {
+    "prefix": "afp",
+    "body": ["() => {", "\t( ${0} )", "}"],
+    "description": "Arrow function (explicit without return)"
+  },
+  "arrowFunctionParentesisWithArguments": {
+    "prefix": "afpa",
+    "body": ["(${1:arg}) => {", "\t( ${0} )", "}"],
+    "description": "Arrow function (explicit without return) with arguments"
+  },
+  "arrowFunctionImmediatelyInvoque": {
+    "prefix": ["iiaf", "afii"],
+    "body": "(() => $0)()",
+    "description": "Arrow function Immediately Invoke"
+  },
+
   "arrowFunctionResponse": {
     "prefix": "afr",
     "body": "(${1:response}) => $0",
@@ -24,56 +60,22 @@
     "body": "(${1:response}) => ${1:response}.data$0",
     "description": "Arrow function (implicit return) response data"
   },
-  "arrowFunctionObject": {
-    "prefix": "afo",
-    "body": "() =>  ( { ${1:prop}:${0:value}} )",
-    "description": "Arrow function (object literal implicit return)"
-  },
-  "arrowFunctionObjectWithArguments": {
-    "prefix": "afoa",
-    "body": "(${1:arg}) => ( {$0} )",
-    "description": "Arrow function (object literal implicit return) with arguments"
-  },
-  "arrowFunctionExplicit": {
-    "prefix": "afe",
-    "body": ["() => {", "  \treturn $0", "}"],
-    "description": "Arrow function (explicit return)"
-  },
-  "arrowFunctionExplicitWithArguments": {
-    "prefix": "afea",
-    "body": ["(${1:arg}) => {", "  \treturn ${0:arg}", "}"],
-    "description": "Arrow function (explicit return) with arguments"
-  },
   "arrowFunctionExplicitResponse": {
     "prefix": "afer",
-    "body": ["(${1:response}) => {", "  \treturn $0", "}"],
+    "body": ["(${1:response}) => {", "\treturn $0", "}"],
     "description": "Arrow function (explicit return)"
   },
   "arrowFunctionExplicitResponseJson": {
     "prefix": "aferj",
-    "body": ["(${1:response}) => {", "  \treturn ${1:response}.json()", "}$0"],
+    "body": ["(${1:response}) => {", "\treturn ${1:response}.json()", "}$0"],
     "description": "Arrow function (explicit return) response json"
   },
   "arrowFunctionExplicitResponseData": {
     "prefix": "aferd",
-    "body": ["(${1:response}) => {", "  \treturn ${1:response}.data", "}$0"],
+    "body": ["(${1:response}) => {", "\treturn ${1:response}.data", "}$0"],
     "description": "Arrow function (explicit return) response data"
   },
-  "arrowFunctionParentesis": {
-    "prefix": "afp",
-    "body": ["() => {", "  \t( ${0:arg} )", "}"],
-    "description": "Arrow function (explicit without return)"
-  },
-  "arrowFunctionParentesisWithArguments": {
-    "prefix": "afpa",
-    "body": ["(${1:arg}) => {", "  \t( ${0:arg} )", "}"],
-    "description": "Arrow function (explicit without return) with arguments"
-  },
-  "arrowFunctionImmediatelyInvoque": {
-    "prefix": "af",
-    "body": "(() => $0)()",
-    "description": "Arrow function Immediately Invoke"
-  },
+
   "arrowFunctionCompareEqual": {
     "prefix": "afceq",
     "body": "(${1:element}) => ${1:element}.${2:prop} === ${0:value}",

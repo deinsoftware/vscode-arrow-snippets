@@ -1,42 +1,32 @@
 {
-  "letVariable": {
-    "prefix": "lv",
-    "body": "let ${1:name} = $0",
-    "description": "Let Variable"
-  },
-  "letString (JS)": {
-    "prefix": "cs",
-    "body": "let ${1:stringName} = '$0'",
-    "description": "Let String"
-  },
-  "letObject (JS)": {
-    "prefix": "co",
-    "body": "let ${1:objectName} = {$0}",
-    "description": "Let Object"
-  },
-  "letArray (JS)": {
-    "prefix": "ca",
-    "body": "let ${1:arrayName} = [$0]",
-    "description": "Let Array"
-  },
-  "constantVariable (JS)": {
+  "constantVariable": {
     "prefix": "cv",
     "body": "const ${1:name} = $0",
     "description": "Constant Variable"
   },
-  "constantString (JS)": {
+  "constantString": {
     "prefix": "cs",
-    "body": "const ${1:stringName} = '$0'",
+    "body": "const ${1:name} = '$0'",
     "description": "Constant String"
   },
-  "constantObject (JS)": {
+  "constantNumber": {
+    "prefix": "cn",
+    "body": "const ${1:name} = ${0:0}",
+    "description": "Constant Number"
+  },
+  "constantBoolean": {
+    "prefix": "cb",
+    "body": "const ${1:name} = ${2|true,false|}${0}",
+    "description": "Constant Boolean"
+  },
+  "constantObject": {
     "prefix": "co",
-    "body": "const ${1:objectName} = {$0}",
+    "body": "const ${1:name} = {$0}",
     "description": "Constant Object"
   },
-  "constantArray (JS)": {
+  "constantArray": {
     "prefix": "ca",
-    "body": "const ${1:arrayName} = [$0]",
+    "body": "const ${1:name} = [$0]",
     "description": "Constant Array"
   }
 }

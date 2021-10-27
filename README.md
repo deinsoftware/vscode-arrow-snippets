@@ -71,20 +71,23 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Variables
 
-|  Trigger | Description             | Result                   |
-| -------: | ----------------------- | ------------------------ |
-|    `lv→` | let variable            | `let name = █`           |
-|    `ls→` | let string variable     | `let stringName = '█'`   |
-|    `lo→` | let object variable     | `let objectName = {█}`   |
-|    `la→` | let array variable      | `let arrayName = [█]`    |
-|    `cv→` | const variable          | `const name = █`         |
-|    `cs→` | const string variable   | `const stringName = '█'` |
-|    `co→` | const object variable   | `const objectName = {█}` |
-|    `ca→` | const array variable    | `const arrayName = [█]`  |
+|  Trigger | Description                  | Result JS            | Result TS                         |
+| -------: | ---------------------------- | -------------------- | --------------------------------- |
+|    `cv→` | const variable               | `const name = █`     | `const name = █`                  |
+|   `cvt→` | const variable type          |                      | `const name: type = █`            |
+|   `cvm→` | const variable multiple type |                      | `const name: (type \| type) = █`   |
+|    `cs→` | const string                 | `const name = '█'`   | `const name: string = '█'`        |
+|    `cn→` | const number                 | `const name = 0█`    | `const name: number = 0█`         |
+|    `cb→` | const boolean                | `const name = true█` | `const name: boolean = true█`     |
+|    `co→` | const object                 | `const name = {█}`   | `const name = {█}`                |
+|   `coi→` | const object interface       |                      | `const name: Interface = {█}`     |
+|    `ca→` | const array                  | `const name = [█]`   | `const name = [█]`                |
+|   `cat→` | const array type             |                      | `const name: type = [█]`          |
+|   `cam→` | const array multiple type    |                      | `const name: (type \| type) = [█]` |
 
 ### Arrow Function
 
-|  Trigger | Description                         | Result                      |
+|  Trigger | Description                         | Result JS/TS                |
 | -------: | ----------------------------------- | --------------------------- |
 |    `af→` | implicit return without args        | `() => █`                   |
 |   `afa→` | implicit return with arg(s)         | `(arg) => █`                |
@@ -98,7 +101,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Promises
 
-|  Trigger | Description                         | Result                           |
+|  Trigger | Description                         | Result JS/TS                     |
 | -------: | ----------------------------------- | -------------------------------- |
 |   `afr→` | implicit return response            | `(response) => █`                |
 |  `afrj→` | implicit return response json       | `(response) => response.json()█` |
@@ -109,7 +112,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Helpers
 
-|  Trigger | Description                         | Result                 |
+|  Trigger | Description                         | Result JS/TS           |
 | -------: | ----------------------------------- | ---------------------- |
 | `afceq→` | compare equal       | `(element) => element.prop === value█` |
 | `afcne→` | compare not equal   | `(element) => element.prop !== value█` |
