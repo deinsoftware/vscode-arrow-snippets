@@ -144,7 +144,7 @@ Create a compare equal arrow function inside `.filter()` function with `afceq`
 
 Create a response for `fetch` promise with `afrj` and `afrd`
 
-![Filter](https://raw.githubusercontent.com/deinsoftware/vscode-arrow-snippets/main/.github/examples/example-promise.gif 'Promise')
+![Promise](https://raw.githubusercontent.com/deinsoftware/vscode-arrow-snippets/main/.github/examples/example-promise.gif 'Promise')
 
 ⇧ [Back to menu](#menu)
 
