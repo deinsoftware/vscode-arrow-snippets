@@ -18,10 +18,12 @@ The quick and easy way to create and use [Arrow Functions](https://developer.moz
   - [Marketplace](#marketplace)
 - [Supported Languages](#supported-languages)
 - [Snippets](#snippets)
-  - [Variables](#variables)
   - [Arrow Function](#arrow-function)
   - [Promises](#promises)
   - [Helpers](#helpers)
+  - [Variables](#variables)
+  - [Destructuring](#destructuring)
+  - [Element](#element)
 - [Examples](#examples)
 - [About](#about)
 
@@ -130,9 +132,29 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |    `pd→` | parameter object dest           | `{prop, prop█}`                       |
 |   `pdr→` | parameter object dest with rest | `{prop, prop, ...rest█}`              |
 
-### Object
+### Element
 
+Object literals elements (key/value pair)
 
+|  Trigger | Description            | Result JS/TS                       |
+| -------: | ---------------------- | ---------------------------------- |
+|   `oev→` | obj element variable   | `key: █`                           |
+|   `oes→` | obj element string     | `key: '█'`                         |
+|   `oen→` | obj element number     | `key: 0█`                          |
+|   `oeb→` | obj element boolean    | `key: true█`                       |
+|   `oeo→` | obj element object     | `key: {█}`                         |
+|   `oeo→` | obj element array      | `key: [█]`                         |
+
+JSON elements (key/value pair)
+
+|  Trigger | Description            | Result JS/TS                       |
+| -------: | ---------------------- | ---------------------------------- |
+|   `jev→` | json element variable  | `"key": █`                         |
+|   `jes→` | json element string    | `"key": "█"`                       |
+|   `jen→` | json element number    | `"key": 0█`                        |
+|   `jeb→` | json element boolean   | `"key": true█`                     |
+|   `jeo→` | json element object    | `"key": {█}`                       |
+|   `jeo→` | json element array     | `"key": [█]`                       |
 
 ⇧ [Back to menu](#menu)
 
