@@ -69,33 +69,6 @@ Open the extension manager with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>X</kbd> (W
 
 Below is a list of all available snippets and the triggers of each one. The **→** means the `TAB` key and `█` means the final cursor position.
 
-### Variables
-
-|  Trigger | Description                  | Result JS            | Result TS                          |
-| -------: | ---------------------------- | -------------------- | ---------------------------------- |
-|    `cv→` | const variable               | `const name = █`     | `const name = █`                   |
-|   `cvt→` | const variable type          |                      | `const name: type = █`             |
-|   `cvm→` | const variable multiple type |                      | <code>const name: (type &#124; type) = █</code>   |
-|    `cs→` | const string                 | `const name = '█'`   | `const name: string = '█'`         |
-|    `cn→` | const number                 | `const name = 0█`    | `const name: number = 0█`          |
-|    `cb→` | const boolean                | `const name = true█` | `const name: boolean = true█`      |
-|    `co→` | const object                 | `const name = {█}`   | `const name = {█}`                 |
-|   `coi→` | const object interface       |                      | `const name: Interface = {█}`      |
-|    `ca→` | const array                  | `const name = [█]`   | `const name = [█]`                 |
-|   `cat→` | const array type             |                      | `const name: type = [█]`           |
-|   `cam→` | const array multiple type    |                      | <code>const name: (type &#124; type) = [█]</code> |
-
-### Destructuring
-
-|  Trigger | Description                     | Result JS/TS                          |
-| -------: | ------------------------------- | ------------------------------------- |
-|   `cod→` | const object dest               | `const {prop, prop} = name█`          |
-|  `codr→` | const object dest with rest     | `const {prop, prop, ...rest} = name█` |
-|   `cad→` | const array dest                | `const [prop, prop] = name█`          |
-|  `cadr→` | const array dest with rest      | `const [prop, prop, ...rest] = name█` |
-|    `pd→` | parameter object dest           | `{prop, prop█}`                       |
-|   `pdr→` | parameter object dest with rest | `{prop, prop, ...rest█}`              |
-
 ### Arrow Function
 
 |  Trigger | Description                            | Result JS/TS                |
@@ -129,6 +102,37 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | -------: | ----------------------------------- | ---------------------- |
 | `afceq→` | compare equal       | `(element) => element.prop === value█` |
 | `afcne→` | compare not equal   | `(element) => element.prop !== value█` |
+
+### Variables
+
+|  Trigger | Description                  | Result JS            | Result TS                          |
+| -------: | ---------------------------- | -------------------- | ---------------------------------- |
+|    `cv→` | const variable               | `const name = █`     | `const name = █`                   |
+|   `cvt→` | const variable type          |                      | `const name: type = █`             |
+|   `cvm→` | const variable multiple type |                      | <code>const name: (type &#124; type) = █</code>   |
+|    `cs→` | const string                 | `const name = '█'`   | `const name: string = '█'`         |
+|    `cn→` | const number                 | `const name = 0█`    | `const name: number = 0█`          |
+|    `cb→` | const boolean                | `const name = true█` | `const name: boolean = true█`      |
+|    `co→` | const object                 | `const name = {█}`   | `const name = {█}`                 |
+|   `coi→` | const object interface       |                      | `const name: Interface = {█}`      |
+|    `ca→` | const array                  | `const name = [█]`   | `const name = [█]`                 |
+|   `cat→` | const array type             |                      | `const name: type = [█]`           |
+|   `cam→` | const array multiple type    |                      | <code>const name: (type &#124; type) = [█]</code> |
+
+### Destructuring
+
+|  Trigger | Description                     | Result JS/TS                          |
+| -------: | ------------------------------- | ------------------------------------- |
+|   `cod→` | const object dest               | `const {prop, prop} = name█`          |
+|  `codr→` | const object dest with rest     | `const {prop, prop, ...rest} = name█` |
+|   `cad→` | const array dest                | `const [prop, prop] = name█`          |
+|  `cadr→` | const array dest with rest      | `const [prop, prop, ...rest] = name█` |
+|    `pd→` | parameter object dest           | `{prop, prop█}`                       |
+|   `pdr→` | parameter object dest with rest | `{prop, prop, ...rest█}`              |
+
+### Object
+
+
 
 ⇧ [Back to menu](#menu)
 
