@@ -98,17 +98,19 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Arrow Function
 
-|  Trigger | Description                         | Result JS/TS                |
-| -------: | ----------------------------------- | --------------------------- |
-|    `af→` | implicit return without args        | `() => █`                   |
-|   `afa→` | implicit return with arg(s)         | `(arg) => █`                |
-|   `afo→` | implicit return object              | `() => ({prop: value█})`    |
-|  `afoa→` | implicit return object with arg(s)  | `(arg) => ({prop: value█})` |
-|   `afe→` | explicit return                     | <code>() => {<br>&nbsp;&nbsp;return █<br> }</code>        |
-|  `afea→` | explicit return with arg(s)         | <code>(arg) => {<br>&nbsp;&nbsp;return █<br> }</code>     |
-|   `afp→` | explicit with parentesis            | <code>() => {<br>&nbsp;&nbsp;(█)<br> }</code>             |
-|  `afpa→` | explicit with parentesis and arg(s) | <code>(arg) => {<br>&nbsp;&nbsp;(█)<br> }</code>          |
-|  `iiaf→` | immediately invoque                 | `(() => █)()`               |
+|  Trigger | Description                            | Result JS/TS                |
+| -------: | -------------------------------------- | --------------------------- |
+|    `af→` | implicit return without args           | `() => █`                   |
+|   `afa→` | implicit return with arg(s)            | `(arg) => █`                |
+|  `afad→` | implicit return with arg destructuring | `(arg) => █`                |
+|   `afo→` | implicit return object                 | `() => ({prop: value█})`    |
+|  `afoa→` | implicit return object with arg(s)     | `(arg) => ({prop: value█})` |
+|   `afe→` | explicit return                        | <code>() => {<br>&nbsp;&nbsp;return █<br> }</code>        |
+|  `afea→` | explicit return with arg(s)            | <code>(arg) => {<br>&nbsp;&nbsp;return █<br> }</code>     |
+| `afead→` | explicit return with arg destructuring | <code>({prop, prop}) => {<br>&nbsp;&nbsp;return █<br> }</code>     |
+|   `afp→` | explicit with parentesis               | <code>() => {<br>&nbsp;&nbsp;(█)<br> }</code>             |
+|  `afpa→` | explicit with parentesis and arg(s)    | <code>(arg) => {<br>&nbsp;&nbsp;(█)<br> }</code>          |
+|  `iiaf→` | immediately invoque                    | `(() => █)()`               |
 
 ### Promises
 

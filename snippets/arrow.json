@@ -9,6 +9,11 @@
     "body": "(${1:arg}) => $0",
     "description": "Arrow function (implicit return) with arguments"
   },
+  "arrowFunctionWithArgumentDestructuring": {
+    "prefix": "afad",
+    "body": "({${1:prop}, ${2:prop}}) => $0",
+    "description": "Arrow function (implicit return) with argument destructuring"
+  },
   "arrowFunctionObject": {
     "prefix": "afo",
     "body": "() =>  ( { ${1:prop}:${0:value}} )",
@@ -28,6 +33,11 @@
     "prefix": "afea",
     "body": ["(${1:arg}) => {", "\treturn ${0}", "}"],
     "description": "Arrow function (explicit return) with arguments"
+  },
+  "arrowFunctionExplicitWithArgumentDestructuring": {
+    "prefix": "afead",
+    "body": ["({${1:prop}, ${2:prop}}) => {", "\treturn ${0}", "}"],
+    "description": "Arrow function (explicit return) with argument destructuring"
   },
   "arrowFunctionParentesis": {
     "prefix": "afp",
