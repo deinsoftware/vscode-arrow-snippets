@@ -102,7 +102,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | -------: | -------------------------------------- | --------------------------- |
 |    `af→` | implicit return without args           | `() => █`                   |
 |   `afa→` | implicit return with arg(s)            | `(arg) => █`                |
-|  `afad→` | implicit return with arg destructuring | `(arg) => █`                |
+|  `afad→` | implicit return with arg destructuring | `({prop, prop}) => █`       |
 |   `afo→` | implicit return object                 | `() => ({prop: value█})`    |
 |  `afoa→` | implicit return object with arg(s)     | `(arg) => ({prop: value█})` |
 |   `afe→` | explicit return                        | <code>() => {<br>&nbsp;&nbsp;return █<br> }</code>        |
