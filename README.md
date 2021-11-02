@@ -63,11 +63,11 @@ Open the extension manager with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>X</kbd> (W
 | JavaScript React | `.jsx`    |
 | TypeScript React | `.tsx`    |
 | Vue              | `.vue`    |
-| JSON **¤**       | `.json`   |
-| JSONC **¤**      | `.jsonc`  |
-| JSON5 **¤**      | `.json5`  |
+| JSON ℹ️           | `.json`   |
+| JSONC ℹ️          | `.jsonc`  |
+| JSON5 ℹ️          | `.json5`  |
 
-> **¤** Only JSON elements snippets are available
+> ℹ️ Only JSON elements snippets are available
 
 ⇧ [Back to menu](#menu)
 
@@ -160,7 +160,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |   `jeo→` | json element object    | `"key": {█}`                       |
 |   `jeo→` | json element array     | `"key": [█]`                       |
 
-> Only available in `.json`, `.jsonc` and `.json5` files
+> ℹ️ Only available in `.json`, `.jsonc` and `.json5` files
 
 ⇧ [Back to menu](#menu)
 
