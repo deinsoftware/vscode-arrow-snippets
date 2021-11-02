@@ -28,36 +28,5 @@
     "prefix": "oea",
     "body": "${1:key}: [$0]",
     "description": "Object Element Array"
-  },
-
-  "jsonElementVariable": {
-    "prefix": "jev",
-    "body": "${1:key}: $0",
-    "description": "JSON Element Variable"
-  },
-  "jsonElementString": {
-    "prefix": "jes",
-    "body": "${1:key}: \"$0\"",
-    "description": "JSON Element String"
-  },
-  "jsonElementNumber": {
-    "prefix": "jen",
-    "body": "${1:key}: ${0:0}",
-    "description": "JSON Element Number"
-  },
-  "jsonElementBoolean": {
-    "prefix": "jeb",
-    "body": "${1:key}: ${2|true,false|}${0}",
-    "description": "JSON Element Boolean"
-  },
-  "jsonElementObject": {
-    "prefix": "jeo",
-    "body": "${1:key}: {$0}",
-    "description": "JSON Element Object"
-  },
-  "jsonElementArray": {
-    "prefix": "jea",
-    "body": "${1:key}: [$0]",
-    "description": "JSON Element Array"
   }
 }

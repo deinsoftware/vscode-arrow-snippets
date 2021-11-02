@@ -114,6 +114,18 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/elements.json"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/json.json"
+      },
+      {
+        "language": "jsonc",
+        "path": "./snippets/json.json"
+      },
+      {
+        "language": "json5",
+        "path": "./snippets/json.json"
       }
     ]
   }

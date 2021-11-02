@@ -62,6 +62,11 @@ Open the extension manager with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>X</kbd> (W
 | JavaScript React | `.jsx`    |
 | TypeScript React | `.tsx`    |
 | Vue              | `.vue`    |
+| JSON [^json]     | `.json`   |
+| JSONC [^json]    | `.jsonc`  |
+| JSON5 [^json]    | `.json5`  |
+
+[^json]: Only JSON elements snippets are available
 
 ⇧ [Back to menu](#menu)
 
