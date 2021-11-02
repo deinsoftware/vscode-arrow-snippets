@@ -23,7 +23,8 @@ The quick and easy way to create and use [Arrow Functions](https://developer.moz
   - [Helpers](#helpers)
   - [Variables](#variables)
   - [Destructuring](#destructuring)
-  - [Element](#element)
+  - [Object Elements](#object-elements)
+  - [JSON Elements](#json-elements)
 - [Examples](#examples)
 - [About](#about)
 
@@ -62,11 +63,11 @@ Open the extension manager with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>X</kbd> (W
 | JavaScript React | `.jsx`    |
 | TypeScript React | `.tsx`    |
 | Vue              | `.vue`    |
-| JSON [^json]     | `.json`   |
-| JSONC [^json]    | `.jsonc`  |
-| JSON5 [^json]    | `.json5`  |
+| JSON **¤**       | `.json`   |
+| JSONC **¤**      | `.jsonc`  |
+| JSON5 **¤**      | `.json5`  |
 
-[^json]: Only JSON elements snippets are available
+> **¤** Only JSON elements snippets are available
 
 ⇧ [Back to menu](#menu)
 
@@ -137,9 +138,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |    `pd→` | parameter object dest           | `{prop, prop█}`                       |
 |   `pdr→` | parameter object dest with rest | `{prop, prop, ...rest█}`              |
 
-### Element
-
-Object literals elements (key/value pair)
+### Object Elements
 
 |  Trigger | Description            | Result JS/TS                       |
 | -------: | ---------------------- | ---------------------------------- |
@@ -150,7 +149,7 @@ Object literals elements (key/value pair)
 |   `oeo→` | obj element object     | `key: {█}`                         |
 |   `oeo→` | obj element array      | `key: [█]`                         |
 
-JSON elements (key/value pair)
+### JSON Elements
 
 |  Trigger | Description            | Result JS/TS                       |
 | -------: | ---------------------- | ---------------------------------- |
@@ -160,6 +159,8 @@ JSON elements (key/value pair)
 |   `jeb→` | json element boolean   | `"key": true█`                     |
 |   `jeo→` | json element object    | `"key": {█}`                       |
 |   `jeo→` | json element array     | `"key": [█]`                       |
+
+> **¤** Only JSON elements snippets are available
 
 ⇧ [Back to menu](#menu)
 
