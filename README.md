@@ -160,7 +160,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |   `jeo→` | json element object    | `"key": {█}`                       |
 |   `jeo→` | json element array     | `"key": [█]`                       |
 
-> **¤** Only JSON elements snippets are available
+> Only available in `.json`, `.jsonc` and `.json5` files
 
 ⇧ [Back to menu](#menu)
 
