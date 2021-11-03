@@ -75,7 +75,7 @@ Open the extension manager with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>X</kbd> (W
 
 ## Snippets
 
-Below is a list of all available snippets and the triggers of each one. The **→** means the `TAB` key and `█` means the final cursor position.
+Below is a list of all available snippets and the triggers of each one. The **→** means the `TAB` key and `█` the final cursor position.
 
 ### Arrow Function
 
@@ -140,25 +140,29 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Object Elements
 
-|  Trigger | Description            | Result JS/TS                       |
-| -------: | ---------------------- | ---------------------------------- |
-|   `oev→` | obj element variable   | `key: █`                           |
-|   `oes→` | obj element string     | `key: '█'`                         |
-|   `oen→` | obj element number     | `key: 0█`                          |
-|   `oeb→` | obj element boolean    | `key: true█`                       |
-|   `oeo→` | obj element object     | `key: {█}`                         |
-|   `oeo→` | obj element array      | `key: [█]`                         |
+|  Trigger | Description                  | Result JS/TS                       |
+| -------: | ---------------------------- | ---------------------------------- |
+|   `oev→` | obj element variable         | `key: value, █`                     |
+|   `oes→` | obj element string           | `key: 'value', █`                   |
+|   `oen→` | obj element number           | `key: number, █`                    |
+|   `oeb→` | obj element boolean          | `key: true, █`                      |
+|   `oeo→` | obj element object           | `key: {element, }, █`             |
+|  `oeom→` | obj element object multiline | <code>key: {<br>&nbsp;&nbsp;element, <br>}, █</code> |
+|   `oea→` | obj element array            | `key: [value, ], █`                        |
+|  `oeam→` | obj element array multiline  | <code>key: [<br>&nbsp;&nbsp;value, <br>], █</code> |
 
 ### JSON Elements
 
-|  Trigger | Description            | Result JS/TS                       |
-| -------: | ---------------------- | ---------------------------------- |
-|   `jev→` | json element variable  | `"key": █`                         |
-|   `jes→` | json element string    | `"key": "█"`                       |
-|   `jen→` | json element number    | `"key": 0█`                        |
-|   `jeb→` | json element boolean   | `"key": true█`                     |
-|   `jeo→` | json element object    | `"key": {█}`                       |
-|   `jeo→` | json element array     | `"key": [█]`                       |
+|  Trigger | Description                   | Result JS/TS                                            |
+| -------: | ----------------------------- | ------------------------------------------------------- |
+|   `jev→` | json element variable         | `key: value, █`                                       |
+|   `jes→` | json element string           | `key: 'value', █`                                     |
+|   `jen→` | json element number           | `key: number, █`                                      |
+|   `jeb→` | json element boolean          | `key: true, █`                                        |
+|   `jeo→` | json element object           | `key: {element, }, █`                                |
+|  `jeom→` | json element object multiline | <code>key: {<br>&nbsp;&nbsp;element, <br>}, █</code> |
+|   `jea→` | json element array            | `key: [value, ], █`                                   |
+|  `jeam→` | json element array multiline  | <code>key: [<br>&nbsp;&nbsp;value, <br>], █</code>   |
 
 > ℹ️ Only available in `.json`, `.jsonc` and `.json5` files
 
