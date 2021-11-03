@@ -1,42 +1,42 @@
 {
   "objectElementVariable": {
     "prefix": "oev",
-    "body": "${1:key}: ${2:value}, $0",
+    "body": "${1:key}: ${2:value},$0",
     "description": "Object Element Variable"
   },
   "objectElementString": {
     "prefix": "oes",
-    "body": "${1:key}: '${2:value}', $0",
+    "body": "${1:key}: '${2:value}',$0",
     "description": "Object Element String"
   },
   "objectElementNumber": {
     "prefix": "oen",
-    "body": "${1:key}: ${2:number}, $0",
+    "body": "${1:key}: ${2:number},$0",
     "description": "Object Element Number"
   },
   "objectElementBoolean": {
     "prefix": "oeb",
-    "body": "${1:key}: ${2|true,false|}, $0",
+    "body": "${1:key}: ${2|true,false|},$0",
     "description": "Object Element Boolean"
   },
   "objectElementObject": {
     "prefix": "oeo",
-    "body": "${1:key}: {${2:element}, $3}, $0",
+    "body": "${1:key}: { $2 },$0",
     "description": "Object Element Object"
   },
   "objectElementObjectMultiline": {
     "prefix": "oeom",
-    "body": ["${1:key}: {", "\t${2:element}, $3", "}, $0"],
+    "body": ["${1:key}: {", "\t$2, $3", "},$0"],
     "description": "Object Element Object"
   },
   "objectElementArray": {
     "prefix": "oea",
-    "body": "${1:key}: [${2:value}, $3], $0",
+    "body": "${1:key}: [ ${2:value} ],$0",
     "description": "Object Element Array"
   },
   "objectElementArrayMultiline": {
     "prefix": "oeam",
-    "body": ["${1:key}: [", "\t${2:value}, $3", "], $0"],
+    "body": ["${1:key}: [", "\t${2:value}, $3", "],$0"],
     "description": "Object Element Object"
   }
 }

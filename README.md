@@ -142,27 +142,27 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 |  Trigger | Description                  | Result JS/TS                       |
 | -------: | ---------------------------- | ---------------------------------- |
-|   `oev→` | obj element variable         | `key: value, █`                     |
-|   `oes→` | obj element string           | `key: 'value', █`                   |
-|   `oen→` | obj element number           | `key: number, █`                    |
-|   `oeb→` | obj element boolean          | `key: true, █`                      |
-|   `oeo→` | obj element object           | `key: {element, }, █`             |
-|  `oeom→` | obj element object multiline | <code>key: {<br>&nbsp;&nbsp;element, <br>}, █</code> |
-|   `oea→` | obj element array            | `key: [value, ], █`                        |
-|  `oeam→` | obj element array multiline  | <code>key: [<br>&nbsp;&nbsp;value, <br>], █</code> |
+|   `oev→` | obj element variable         | `key: value,█`                     |
+|   `oes→` | obj element string           | `key: 'value',█`                   |
+|   `oen→` | obj element number           | `key: number,█`                    |
+|   `oeb→` | obj element boolean          | `key: true,█`                      |
+|   `oeo→` | obj element object           | `key: {element},█`             |
+|  `oeom→` | obj element object multiline | <code>key: {<br>&nbsp;&nbsp;element, <br>},█</code> |
+|   `oea→` | obj element array            | `key: [value, ],█`                        |
+|  `oeam→` | obj element array multiline  | <code>key: [<br>&nbsp;&nbsp;value, <br>],█</code> |
 
 ### JSON Elements
 
 |  Trigger | Description                   | Result JS/TS                                            |
 | -------: | ----------------------------- | ------------------------------------------------------- |
-|   `jev→` | json element variable         | `key: value, █`                                       |
-|   `jes→` | json element string           | `key: 'value', █`                                     |
-|   `jen→` | json element number           | `key: number, █`                                      |
-|   `jeb→` | json element boolean          | `key: true, █`                                        |
-|   `jeo→` | json element object           | `key: {element, }, █`                                |
-|  `jeom→` | json element object multiline | <code>key: {<br>&nbsp;&nbsp;element, <br>}, █</code> |
-|   `jea→` | json element array            | `key: [value, ], █`                                   |
-|  `jeam→` | json element array multiline  | <code>key: [<br>&nbsp;&nbsp;value, <br>], █</code>   |
+|   `jev→` | json element variable         | `key: value,█`                                       |
+|   `jes→` | json element string           | `key: 'value',█`                                     |
+|   `jen→` | json element number           | `key: number,█`                                      |
+|   `jeb→` | json element boolean          | `key: true,█`                                        |
+|   `jeo→` | json element object           | `key: { element }█`                                |
+|  `jeom→` | json element object multiline | <code>key: {<br>&nbsp;&nbsp;element , <br>},█</code> |
+|   `jea→` | json element array            | `key: [ value ],█`                                   |
+|  `jeam→` | json element array multiline  | <code>key: [<br>&nbsp;&nbsp;value , <br>],█</code>   |
 
 > ℹ️ Only available in `.json`, `.jsonc` and `.json5` files
 
