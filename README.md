@@ -146,9 +146,9 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |   `oes→` | obj element string           | `key: 'value',█`                   |
 |   `oen→` | obj element number           | `key: number,█`                    |
 |   `oeb→` | obj element boolean          | `key: true,█`                      |
-|   `oeo→` | obj element object           | `key: {element},█`             |
+|   `oeo→` | obj element object           | `key: { element },█`             |
 |  `oeom→` | obj element object multiline | <code>key: {<br>&nbsp;&nbsp;element, <br>},█</code> |
-|   `oea→` | obj element array            | `key: [value, ],█`                        |
+|   `oea→` | obj element array            | `key: [value ],█`                        |
 |  `oeam→` | obj element array multiline  | <code>key: [<br>&nbsp;&nbsp;value, <br>],█</code> |
 
 ### JSON Elements
