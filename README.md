@@ -20,7 +20,7 @@ The quick and easy way to create and use [Arrow Functions](https://developer.moz
 - [Snippets](#snippets)
   - [Arrow Function](#arrow-function)
   - [Promises](#promises)
-  - [Helpers](#helpers)
+  - [Arrays](#arrays)
   - [Variables](#variables)
   - [Destructuring](#destructuring)
   - [Object Elements](#object-elements)
