@@ -13,8 +13,8 @@ Security    to invite users to upgrade in case of vulnerabilities.
 
 ### Added
 
-- Array function with `at`, `filter` and `sort`.
+- Array snippets with `at`, `filter` and `sort`.
 
 ### Changed
 
-- Turn helper into array snippets
+- Turn helper into array snippets.
