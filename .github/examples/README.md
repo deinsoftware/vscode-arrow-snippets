@@ -108,14 +108,14 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 |  Trigger  | Description             | Result JS/TS                                                          |
 | --------: | ------------------------| --------------------------------------------------------------------- |
-| `arfe→`   | first element           | `array.at(1)█`                                                        |
-| `arle→`   | last element            | `array.at(-1)█`                                                       |
-| `arfeq→`  | filter equal            | `const newArray = array.filter((element) => element === value)█`      |
-| `arfne→`  | filter not equal        | `const newArray = array.filter((element) => element !== value)█`      |
-| `arfoeq→` | filter object equal     | `const newArray = array.filter((element) => element.prop === value)█` |
-| `arfone→` | filter object not equal | `const newArray = array.filter((element) => element.prop !== value)█` |
-| `arsna→`  | sort number ascending   | `array.sort((a, b) => a - b)█`                                        |
-| `arsnd→`  | sort number descending  | `array.sort((a, b) => b - a)█`                                        |
+| `arfe→`   | first element           | `array.at(1█)`                                                        |
+| `arle→`   | last element            | `array.at(-1█)`                                                       |
+| `arfeq→`  | filter equal            | `const newArray = array.filter((element) => element === value█)`      |
+| `arfne→`  | filter not equal        | `const newArray = array.filter((element) => element !== value█)`      |
+| `arfoeq→` | filter object equal     | `const newArray = array.filter((element) => element.prop === value█)` |
+| `arfone→` | filter object not equal | `const newArray = array.filter((element) => element.prop !== value█)` |
+| `arsna→`  | sort number ascending   | `array.sort((a, b) => a - b█)`                                        |
+| `arsnd→`  | sort number descending  | `array.sort((a, b) => b - a█)`                                        |
 
 ### Variables
 

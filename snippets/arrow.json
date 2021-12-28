@@ -84,16 +84,5 @@
     "prefix": "aferd",
     "body": ["(${1:response}) => {", "\treturn ${1:response}.data", "}$0"],
     "description": "Arrow function (explicit return) response data"
-  },
-
-  "arrowFunctionCompareEqual": {
-    "prefix": "afceq",
-    "body": "(${1:element}) => ${1:element}.${2:prop} === ${0:value}",
-    "description": "Arrow function (implicit return) compare equal"
-  },
-  "arrowFunctionCompareNotEqual": {
-    "prefix": "afcne",
-    "body": "(${1:element}) => ${1:element}.${2:prop} !== ${0:value}",
-    "description": "Arrow function (implicit return) compare not equal"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "arrow-function-snippets",
   "description": "VS Code Arrow function snippets for JS and TS",
-  "version": "1.5.8",
+  "version": "1.6.0",
   "displayName": "Arrow Function Snippets",
   "publisher": "deinsoftware",
   "icon": "images/light-icon.png",
@@ -41,7 +41,7 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/var-js.json"
+        "path": "./snippets/arrays.json"
       },
       {
         "language": "javascript",
@@ -56,8 +56,12 @@
         "path": "./snippets/elements.json"
       },
       {
-        "language": "javascriptreact",
+        "language": "javascript",
         "path": "./snippets/var-js.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/arrays.json"
       },
       {
         "language": "javascriptreact",
@@ -72,8 +76,12 @@
         "path": "./snippets/elements.json"
       },
       {
-        "language": "vue",
+        "language": "javascriptreact",
         "path": "./snippets/var-js.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/arrays.json"
       },
       {
         "language": "vue",
@@ -85,39 +93,51 @@
       },
       {
         "language": "vue",
+        "path": "./snippets/elements.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/var-js.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/arrays.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/arrow.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/destructuring.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/elements.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/var-ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/arrays.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/arrow.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/destructuring.json"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/elements.json"
       },
       {
         "language": "typescript",
         "path": "./snippets/var-ts.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/arrow.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/destructuring.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/var-ts.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/arrow.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/destructuring.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/elements.json"
       },
       {
         "language": "json",

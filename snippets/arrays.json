@@ -1,0 +1,42 @@
+{
+  "arrayFirstElement": {
+    "prefix": "arfe",
+    "body": "${1:array}.at(1)$0",
+    "description": "Array first Element"
+  },
+  "arrayLastElement": {
+    "prefix": "arle",
+    "body": "${1:array}.at(-1)$0",
+    "description": "Array last Element"
+  },
+  "arrayFilterEqual": {
+    "prefix": "arfeq",
+    "body": "const ${1:newArray} = ${2:array}.filter((${3:element}) => ${3:element} === ${4:value})$0",
+    "description": "Array Filter compare equal"
+  },
+  "arrayFilterNotEqual": {
+    "prefix": "arfne",
+    "body": "const ${1:newArray} = ${2:array}.filter((${3:element}) => ${3:element} !== ${4:value})$0",
+    "description": "Array Filter compare not equal"
+  },
+  "arrayFilterObjectEqual": {
+    "prefix": "arfoeq",
+    "body": "const ${1:newArray} = ${2:array}.filter((${3:element}) => ${3:element}.${4:prop} === ${5:value})$0",
+    "description": "Array Filter Object compare equal"
+  },
+  "arrayFilterObjectNotEqual": {
+    "prefix": "arfone",
+    "body": "const ${1:newArray} = ${2:array}.filter((${3:element}) => ${3:element}.${4:prop} !== ${5:value})$0",
+    "description": "Array Filter Object compare not equal"
+  },
+  "arraySortNumberAsc": {
+    "prefix": "arsna",
+    "body": "${1:array}.sort((${2:a}, ${3:b}) => ${2:a} - ${3:b})$0",
+    "description": "Array sort numbers ascending"
+  },
+  "arraySortNumberDesc": {
+    "prefix": "arsnd",
+    "body": "${1:array}.sort((${2:a}, ${3:b}) => ${3:b} - ${2:a})$0",
+    "description": "Array sort numbers descending"
+  }
+}
