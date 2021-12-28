@@ -13,7 +13,7 @@ Security    to invite users to upgrade in case of vulnerabilities.
 
 ### Added
 
-- Arrow function with `at`, `filter` and `sort`.
+- Array function with `at`, `filter` and `sort`.
 
 ### Changed
 
