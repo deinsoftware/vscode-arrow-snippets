@@ -106,16 +106,17 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Arrays
 
-|  Trigger  | Description             | Result JS/TS                                                          |
-| --------: | ------------------------| --------------------------------------------------------------------- |
-| `arfe→`   | first element           | `array.at(1)█`                                                        |
-| `arle→`   | last element            | `array.at(-1)█`                                                       |
-| `arfeq→`  | filter equal            | `const newArray = array.filter((element) => element === value)█`      |
-| `arfne→`  | filter not equal        | `const newArray = array.filter((element) => element !== value)█`      |
-| `arfoeq→` | filter object equal     | `const newArray = array.filter((element) => element.prop === value)█` |
-| `arfone→` | filter object not equal | `const newArray = array.filter((element) => element.prop !== value)█` |
-| `arsna→`  | sort number ascending   | `array.sort((a, b) => a - b)█`                                        |
-| `arsnd→`  | sort number descending  | `array.sort((a, b) => b - a)█`                                        |
+|  Trigger  | Description             | Result JS/TS                                                                             |
+| --------: | ------------------------| ---------------------------------------------------------------------------------------- |
+| `arfe→`   | first element           | `array.at(1)█`                                                                           |
+| `arle→`   | last element            | `array.at(-1)█`                                                                          |
+| `arfeq→`  | filter equal            | `const newArray = array.filter((element) => element === value)█`                         |
+| `arfne→`  | filter not equal        | `const newArray = array.filter((element) => element !== value)█`                         |
+| `arfoeq→` | filter object equal     | `const newArray = array.filter((element) => element.prop === value)█`                    |
+| `arfone→` | filter object not equal | `const newArray = array.filter((element) => element.prop !== value)█`                    |
+| `arsna→`  | sort number ascending   | `array.sort((a, b) => a - b)█`                                                           |
+| `arsnd→`  | sort number descending  | `array.sort((a, b) => b - a)█`                                                           |
+| `aruv→`   | unique values           | `const newArray = array.filter((current, index, arr) => arr.indexOf(current) == index)█` |
 
 ### Variables
 

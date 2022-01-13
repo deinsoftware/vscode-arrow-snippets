@@ -1,11 +1,4 @@
 .vscode/**
-.vscode-test/**
-out/test/**
-extension/**
 .gitignore
 CHANGELOG.md
-vsc-extension-quickstart.md
-**/tsconfig.json
-**/tslint.json
-**/*.ts
 .test/**

@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.7.0] - 2022/01/13
+
+### Added
+
+- Array Unique Values snippet
+
 ## [1.6.1] - 2021/12/27
 
 ### Fixed

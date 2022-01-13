@@ -38,5 +38,10 @@
     "prefix": "arsnd",
     "body": "${1:array}.sort((${2:a}, ${3:b}) => ${3:b} - ${2:a})$0",
     "description": "Array sort numbers descending"
+  },
+  "arrayUniqueValues": {
+    "prefix": "aruv",
+    "body": "const ${1:newArray} = ${2:array}.filter((${3:current}, ${4:index}, ${5:arr}) => ${5:arr}.indexOf(${3:current}) == ${4:index})$0",
+    "description": "Array sort numbers descending"
   }
 }

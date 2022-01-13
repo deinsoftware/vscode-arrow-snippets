@@ -1,7 +1,7 @@
 {
   "name": "arrow-function-snippets",
   "description": "VS Code Arrow function snippets for JS and TS",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "displayName": "Arrow Function Snippets",
   "publisher": "deinsoftware",
   "icon": "images/light-icon.png",
@@ -24,11 +24,12 @@
     "url": "https://github.com/deinsoftware/vscode-arrow-snippets"
   },
   "engines": {
-    "vscode": "^1.51.0"
+    "vscode": "^1.58.0"
   },
   "categories": [
     "Snippets"
   ],
+  "main": "./out/extension.js",
   "browser": "./out/extension.js",
   "extensionKind": [
     "ui",
@@ -152,5 +153,9 @@
         "path": "./snippets/json.json"
       }
     ]
+  },
+  "volta": {
+    "node": "16.13.1",
+    "npm": "8.1.2"
   }
 }
