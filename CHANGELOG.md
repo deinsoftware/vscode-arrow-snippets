@@ -9,6 +9,18 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.7.2] - 2022/01/26
+
+### Fixed
+
+- Snippet are not working on TSX attributes
+
+## [1.7.1] - 2022/01/26
+
+### Fixed
+
+- Snippet are not working on JSX attributes
+
 ## [1.7.0] - 2022/01/13
 
 ### Added

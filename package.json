@@ -1,7 +1,7 @@
 {
   "name": "arrow-function-snippets",
   "description": "VS Code Arrow function snippets for JS and TS",
-  "version": "1.7.0",
+  "version": "1.7.2",
   "displayName": "Arrow Function Snippets",
   "publisher": "deinsoftware",
   "icon": "images/light-icon.png",
@@ -81,6 +81,26 @@
         "path": "./snippets/var-js.json"
       },
       {
+        "language": "jsx-attr",
+        "path": "./snippets/arrays.json"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/arrow.json"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/destructuring.json"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/elements.json"
+      },
+      {
+        "language": "jsx-attr",
+        "path": "./snippets/var-js.json"
+      },
+      {
         "language": "vue",
         "path": "./snippets/arrays.json"
       },
@@ -134,6 +154,26 @@
       },
       {
         "language": "typescriptreact",
+        "path": "./snippets/elements.json"
+      },
+      {
+        "language": "tsx-attr",
+        "path": "./snippets/var-ts.json"
+      },
+      {
+        "language": "tsx-attr",
+        "path": "./snippets/arrays.json"
+      },
+      {
+        "language": "tsx-attr",
+        "path": "./snippets/arrow.json"
+      },
+      {
+        "language": "tsx-attr",
+        "path": "./snippets/destructuring.json"
+      },
+      {
+        "language": "tsx-attr",
         "path": "./snippets/elements.json"
       },
       {
