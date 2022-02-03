@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.8.0] - 2022/02/03
+
+### Added
+
+- `afee` snippet for arrow function explicit without `return`
+
 ## [1.7.2] - 2022/01/26
 
 ### Fixed

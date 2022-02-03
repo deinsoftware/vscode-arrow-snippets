@@ -86,11 +86,12 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |  `afad→` | implicit return with arg destructuring | `({prop, prop}) => █`       |
 |   `afo→` | implicit return object                 | `() => ({prop: value█})`    |
 |  `afoa→` | implicit return object with arg(s)     | `(arg) => ({prop: value█})` |
-|   `afe→` | explicit return                        | <code>() => {<br>&nbsp;&nbsp;return █<br> }</code>        |
-|  `afea→` | explicit return with arg(s)            | <code>(arg) => {<br>&nbsp;&nbsp;return █<br> }</code>     |
-| `afead→` | explicit return with arg destructuring | <code>({prop, prop}) => {<br>&nbsp;&nbsp;return █<br> }</code>     |
-|   `afp→` | explicit with parentesis               | <code>() => {<br>&nbsp;&nbsp;(█)<br> }</code>             |
-|  `afpa→` | explicit with parentesis and arg(s)    | <code>(arg) => {<br>&nbsp;&nbsp;(█)<br> }</code>          |
+|   `afe→` | explicit return                        | <code language="javascript">() => {<br/>&nbsp;&nbsp;return █<br/> }</code>         |
+|  `afea→` | explicit return with arg(s)            | <code language="javascript">(arg) => {<br/>&nbsp;&nbsp;return █<br/> }</code>   |
+| `afead→` | explicit return with arg destructuring | <code language="javascript">({prop, prop}) => {<br/>&nbsp;&nbsp;return █<br/> }</code>     |
+|  `afee→` | explicit empty                         | <code language="javascript">() => {<br/>&nbsp;&nbsp;█<br/> }</code>         |
+|   `afp→` | explicit with parentheses               | <code language="javascript">() => {<br/>&nbsp;&nbsp;(█)<br/> }</code>              |
+|  `afpa→` | explicit with parentheses and arg(s)    | <code language="javascript">(arg) => {<br/>&nbsp;&nbsp;(█)<br/> }</code>        |
 |  `iiaf→` | immediately invoque                    | `(() => █)()`               |
 
 ### Promises
@@ -100,9 +101,9 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |   `afr→` | implicit return response            | `(response) => █`                |
 |  `afrj→` | implicit return response json       | `(response) => response.json()█` |
 |  `afrd→` | implicit return response data       | `(response) => response.data█`   |
-|  `afer→` | explicit return response            | <code>(response) => {<br>&nbsp;&nbsp;return █<br> }</code> |
-| `aferj→` | explicit return response json       | <code>(response) => {<br>&nbsp;&nbsp;return response.json()<br> }█</code> |
-| `aferd→` | explicit return response data       | <code>(response) => {<br>&nbsp;&nbsp;return response.data<br> }█</code> |
+|  `afer→` | explicit return response            | <code language="javascript">(response) => {<br/>&nbsp;&nbsp;return █<br/> }</code> |
+| `aferj→` | explicit return response json       | <code language="javascript">(response) => {<br/>&nbsp;&nbsp;return response.json()<br/> }█</code> |
+| `aferd→` | explicit return response data       | <code language="javascript">(response) => {<br/>&nbsp;&nbsp;return response.data<br/> }█</code> |
 
 ### Arrays
 
@@ -124,7 +125,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | -------: | ---------------------------- | -------------------- | ---------------------------------- |
 |    `cv→` | const variable               | `const name = █`     | `const name = █`                   |
 |   `cvt→` | const variable type          |                      | `const name: type = █`             |
-|   `cvm→` | const variable multiple type |                      | <code>const name: (type &#124; type) = █</code>   |
+|   `cvm→` | const variable multiple type |                      | <code language="javascript">const name: (type &#124; type) = █</code>   |
 |    `cs→` | const string                 | `const name = '█'`   | `const name: string = '█'`         |
 |    `cn→` | const number                 | `const name = 0█`    | `const name: number = 0█`          |
 |    `cb→` | const boolean                | `const name = true█` | `const name: boolean = true█`      |
@@ -132,7 +133,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |   `coi→` | const object interface       |                      | `const name: Interface = {█}`      |
 |    `ca→` | const array                  | `const name = [█]`   | `const name = [█]`                 |
 |   `cat→` | const array type             |                      | `const name: type = [█]`           |
-|   `cam→` | const array multiple type    |                      | <code>const name: (type &#124; type) = [█]</code> |
+|   `cam→` | const array multiple type    |                      | <code language="javascript">const name: (type &#124; type) = [█]</code> |
 
 ### Destructuring
 
@@ -154,9 +155,9 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |   `oen→` | obj element number           | `key: number,█`                    |
 |   `oeb→` | obj element boolean          | `key: true,█`                      |
 |   `oeo→` | obj element object           | `key: { element },█`             |
-|  `oeom→` | obj element object multiline | <code>key: {<br>&nbsp;&nbsp;element, <br>},█</code> |
+|  `oeom→` | obj element object multiline | <code language="javascript">key: {<br/>&nbsp;&nbsp;element, <br/>},█</code> |
 |   `oea→` | obj element array            | `key: [ value ],█`                        |
-|  `oeam→` | obj element array multiline  | <code>key: [<br>&nbsp;&nbsp;value, <br>],█</code> |
+|  `oeam→` | obj element array multiline  | <code language="javascript">key: [<br/>&nbsp;&nbsp;value, <br/>],█</code> |
 
 ### JSON Elements
 
@@ -167,9 +168,9 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |   `jen→` | json element number           | `key: number,█`                                      |
 |   `jeb→` | json element boolean          | `key: true,█`                                        |
 |   `jeo→` | json element object           | `key: { element }█`                                |
-|  `jeom→` | json element object multiline | <code>key: {<br>&nbsp;&nbsp;element , <br>},█</code> |
+|  `jeom→` | json element object multiline | <code language="javascript">key: {<br/>&nbsp;&nbsp;element , <br/>},█</code> |
 |   `jea→` | json element array            | `key: [ value ],█`                                   |
-|  `jeam→` | json element array multiline  | <code>key: [<br>&nbsp;&nbsp;value , <br>],█</code>   |
+|  `jeam→` | json element array multiline  | <code language="javascript">key: [<br/>&nbsp;&nbsp;value , <br/>],█</code>   |
 
 > ℹ️ Only available in `.json`, `.jsonc` and `.json5` files
 

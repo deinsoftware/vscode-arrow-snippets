@@ -39,12 +39,18 @@
     "body": ["({${1:prop}, ${2:prop}}) => {", "\treturn ${0}", "}"],
     "description": "Arrow function (explicit return) with argument destructuring"
   },
-  "arrowFunctionParentesis": {
+  "arrowFunctionExplicitEmpty": {
+    "prefix": "afee",
+    "body": ["() => {", "\t$0", "}"],
+    "description": "Arrow function (without return)"
+  },
+
+  "arrowFunctionParentheses": {
     "prefix": "afp",
     "body": ["() => {", "\t( ${0} )", "}"],
     "description": "Arrow function (explicit without return)"
   },
-  "arrowFunctionParentesisWithArguments": {
+  "arrowFunctionParenthesesWithArguments": {
     "prefix": "afpa",
     "body": ["(${1:arg}) => {", "\t( ${0} )", "}"],
     "description": "Arrow function (explicit without return) with arguments"
