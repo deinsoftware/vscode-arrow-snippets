@@ -53,5 +53,19 @@
     "prefix": "cam",
     "body": "const ${1:name}: (${2|string,number,boolean,custom|} | ${3|string,number,boolean,custom|})[] = [$0]",
     "description": "Constant Multi Type Array"
+  },
+  "constantArrowFunction": {
+    "prefix": "caf",
+    "body": ["const ${1:name} = ($2) => {", "\t$0", "}"],
+    "description": "Constant Arrow function (implicit return type)"
+  },
+  "constantArrowFunctionType": {
+    "prefix": "caft",
+    "body": [
+      "const ${1:name} = ($2) : ${3|string,number,boolean,custom|} => {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Constant Arrow function (explicit return type)"
   }
 }

@@ -44,7 +44,6 @@
     "body": ["() => {", "\t$0", "}"],
     "description": "Arrow function (without return)"
   },
-
   "arrowFunctionParentheses": {
     "prefix": "afp",
     "body": ["() => {", "\t( ${0} )", "}"],

@@ -121,19 +121,21 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Variables
 
-|  Trigger | Description                  | Result JS            | Result TS                          |
-| -------: | ---------------------------- | -------------------- | ---------------------------------- |
-|    `cv→` | const variable               | `const name = █`     | `const name = █`                   |
-|   `cvt→` | const variable type          |                      | `const name: type = █`             |
-|   `cvm→` | const variable multiple type |                      | <code>const name: (type &#124; type) = █</code>   |
-|    `cs→` | const string                 | `const name = '█'`   | `const name: string = '█'`         |
-|    `cn→` | const number                 | `const name = 0█`    | `const name: number = 0█`          |
-|    `cb→` | const boolean                | `const name = true█` | `const name: boolean = true█`      |
-|    `co→` | const object                 | `const name = {█}`   | `const name = {█}`                 |
-|   `coi→` | const object interface       |                      | `const name: Interface = {█}`      |
-|    `ca→` | const array                  | `const name = [█]`   | `const name = [█]`                 |
-|   `cat→` | const array type             |                      | `const name: type = [█]`           |
-|   `cam→` | const array multiple type    |                      | <code>const name: (type &#124; type) = [█]</code> |
+|  Trigger | Description                    | Result JS            | Result TS                          |
+| -------: | ------------------------------ | -------------------- | ---------------------------------- |
+|    `cv→` | const variable                 | `const name = █`     | `const name = █`                   |
+|   `cvt→` | const variable type            |                      | `const name: type = █`             |
+|   `cvm→` | const variable multiple type   |                      | <code>const name: (type &#124; type) = █</code>   |
+|    `cs→` | const string                   | `const name = '█'`   | `const name: string = '█'`         |
+|    `cn→` | const number                   | `const name = 0█`    | `const name: number = 0█`          |
+|    `cb→` | const boolean                  | `const name = true█` | `const name: boolean = true█`      |
+|    `co→` | const object                   | `const name = {█}`   | `const name = {█}`                 |
+|   `coi→` | const object interface         |                      | `const name: Interface = {█}`      |
+|    `ca→` | const array                    | `const name = [█]`   | `const name = [█]`                 |
+|   `cat→` | const array type               |                      | `const name: type = [█]`           |
+|   `cam→` | const array multiple type      |                      | <code>const name: (type &#124; type) = [█]</code> |
+|   `caf→` | const arrow function           | <code>const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code> | <code>const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code> |
+|  `caft→` | const arrow function with type |                      | <code>const name = () : type => {<br/>&nbsp;&nbsp;█<br/> }</code> |
 
 ### Destructuring
 

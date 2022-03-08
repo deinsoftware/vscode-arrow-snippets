@@ -9,6 +9,13 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.9.0] - 2022/03/08
+
+### Added
+
+- `caf` snippet for constant arrow function
+- `caft` snippet for constant arrow function with explicit type
+
 ## [1.8.0] - 2022/02/03
 
 ### Added
