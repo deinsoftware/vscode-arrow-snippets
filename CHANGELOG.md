@@ -9,6 +9,13 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.10.0] - 2022/04/01
+
+### Added
+
+- `caaf` snippet for constant async arrow function
+- `caaft` snippet for constant async arrow function with explicit type
+
 ## [1.9.0] - 2022/03/08
 
 ### Added

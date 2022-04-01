@@ -79,31 +79,31 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Arrow Function
 
-|  Trigger | Description                            | Result JS/TS                |
-| -------: | -------------------------------------- | --------------------------- |
-|    `af→` | implicit return without args           | `() => █`                   |
-|   `afa→` | implicit return with arg(s)            | `(arg) => █`                |
-|  `afad→` | implicit return with arg destructuring | `({prop, prop}) => █`       |
-|   `afo→` | implicit return object                 | `() => ({prop: value█})`    |
-|  `afoa→` | implicit return object with arg(s)     | `(arg) => ({prop: value█})` |
-|   `afe→` | explicit return                        | <code>() => {<br/>&nbsp;&nbsp;return █<br/> }</code>         |
-|  `afea→` | explicit return with arg(s)            | <code>(arg) => {<br/>&nbsp;&nbsp;return █<br/> }</code>   |
-| `afead→` | explicit return with arg destructuring | <code>({prop, prop}) => {<br/>&nbsp;&nbsp;return █<br/> }</code>     |
-|  `afee→` | explicit empty                         | <code>() => {<br/>&nbsp;&nbsp;█<br/> }</code>         |
-|   `afp→` | explicit with parentheses               | <code>() => {<br/>&nbsp;&nbsp;(█)<br/> }</code>              |
-|  `afpa→` | explicit with parentheses and arg(s)    | <code>(arg) => {<br/>&nbsp;&nbsp;(█)<br/> }</code>        |
-|  `iiaf→` | immediately invoque                    | `(() => █)()`               |
+|  Trigger | Description                            | Result JS/TS                                                     |
+| -------: | -------------------------------------- | ---------------------------------------------------------------- |
+|    `af→` | implicit return without args           | `() => █`                                                        |
+|   `afa→` | implicit return with arg(s)            | `(arg) => █`                                                     |
+|  `afad→` | implicit return with arg destructuring | `({prop, prop}) => █`                                            |
+|   `afo→` | implicit return object                 | `() => ({prop: value█})`                                         |
+|  `afoa→` | implicit return object with arg(s)     | `(arg) => ({prop: value█})`                                      |
+|   `afe→` | explicit return                        | <code>() => {<br/>&nbsp;&nbsp;return █<br/> }</code>             |
+|  `afea→` | explicit return with arg(s)            | <code>(arg) => {<br/>&nbsp;&nbsp;return █<br/> }</code>          |
+| `afead→` | explicit return with arg destructuring | <code>({prop, prop}) => {<br/>&nbsp;&nbsp;return █<br/> }</code> |
+|  `afee→` | explicit empty                         | <code>() => {<br/>&nbsp;&nbsp;█<br/> }</code>                    |
+|   `afp→` | explicit with parentheses               | <code>() => {<br/>&nbsp;&nbsp;(█)<br/> }</code>                 |
+|  `afpa→` | explicit with parentheses and arg(s)    | <code>(arg) => {<br/>&nbsp;&nbsp;(█)<br/> }</code>              |
+|  `iiaf→` | immediately invoque                    | `(() => █)()`                                                    |
 
 ### Promises
 
-|  Trigger | Description                         | Result JS/TS                     |
-| -------: | ----------------------------------- | -------------------------------- |
-|   `afr→` | implicit return response            | `(response) => █`                |
-|  `afrj→` | implicit return response json       | `(response) => response.json()█` |
-|  `afrd→` | implicit return response data       | `(response) => response.data█`   |
-|  `afer→` | explicit return response            | <code>(response) => {<br/>&nbsp;&nbsp;return █<br/> }</code> |
-| `aferj→` | explicit return response json       | <code>(response) => {<br/>&nbsp;&nbsp;return response.json()<br/> }█</code> |
-| `aferd→` | explicit return response data       | <code>(response) => {<br/>&nbsp;&nbsp;return response.data<br/> }█</code> |
+|  Trigger | Description                         | Result JS/TS                                                                  |
+| -------: | ----------------------------------- | ----------------------------------------------------------------------------- |
+|   `afr→` | implicit return response            | `(response) => █`                                                             |
+|  `afrj→` | implicit return response json       | `(response) => response.json()█`                                              |
+|  `afrd→` | implicit return response data       | `(response) => response.data█`                                                |
+|  `afer→` | explicit return response            | <code>(response) => {<br/>&nbsp;&nbsp;return █<br/> }</code>                  |
+| `aferj→` | explicit return response json       | <code>(response) => {<br/>&nbsp;&nbsp;return response.json()<br/> }█</code>   |
+| `aferd→` | explicit return response data       | <code>(response) => {<br/>&nbsp;&nbsp;return response.data<br/> }█</code>     |
 
 ### Arrays
 
@@ -121,21 +121,23 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Variables
 
-|  Trigger | Description                    | Result JS            | Result TS                          |
-| -------: | ------------------------------ | -------------------- | ---------------------------------- |
-|    `cv→` | const variable                 | `const name = █`     | `const name = █`                   |
-|   `cvt→` | const variable type            |                      | `const name: type = █`             |
-|   `cvm→` | const variable multiple type   |                      | <code>const name: (type &#124; type) = █</code>   |
-|    `cs→` | const string                   | `const name = '█'`   | `const name: string = '█'`         |
-|    `cn→` | const number                   | `const name = 0█`    | `const name: number = 0█`          |
-|    `cb→` | const boolean                  | `const name = true█` | `const name: boolean = true█`      |
-|    `co→` | const object                   | `const name = {█}`   | `const name = {█}`                 |
-|   `coi→` | const object interface         |                      | `const name: Interface = {█}`      |
-|    `ca→` | const array                    | `const name = [█]`   | `const name = [█]`                 |
-|   `cat→` | const array type               |                      | `const name: type = [█]`           |
-|   `cam→` | const array multiple type      |                      | <code>const name: (type &#124; type) = [█]</code> |
-|   `caf→` | const arrow function           | <code>const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code> | <code>const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code> |
-|  `caft→` | const arrow function with type |                      | <code>const name = () : type => {<br/>&nbsp;&nbsp;█<br/> }</code> |
+|  Trigger | Description                          | Result JS                                                        | Result TS                                                               |
+| -------: | ------------------------------------ | ---------------------------------------------------------------- | ----------------------------------------------------------------------- |
+|    `cv→` | const variable                       | `const name = █`                                                 | `const name = █`                                                        |
+|   `cvt→` | const variable type                  |                                                                  | `const name: type = █`                                                  |
+|   `cvm→` | const variable multiple type         |                                                                  | <code>const name: (type &#124; type) = █</code>                         |
+|    `cs→` | const string                         | `const name = '█'`                                               | `const name: string = '█'`                                              |
+|    `cn→` | const number                         | `const name = 0█`                                                | `const name: number = 0█`                                               |
+|    `cb→` | const boolean                        | `const name = true█`                                             | `const name: boolean = true█`                                           |
+|    `co→` | const object                         | `const name = {█}`                                               | `const name = {█}`                                                      |
+|   `coi→` | const object interface               |                                                                  | `const name: Interface = {█}`                                           |
+|    `ca→` | const array                          | `const name = [█]`                                               | `const name = [█]`                                                      |
+|   `cat→` | const array type                     |                                                                  | `const name: type = [█]`                                                |
+|   `cam→` | const array multiple type            |                                                                  | <code>const name: (type &#124; type) = [█]</code>                       |
+|   `caf→` | const arrow function                 | <code>const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code>       | <code>const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code>              |
+|  `caaf→` | const async arrow function           | <code>const name = async () => {<br/>&nbsp;&nbsp;█<br/> }</code> | <code>const name = async () => {<br/>&nbsp;&nbsp;█<br/> }</code>        |
+|  `caft→` | const arrow function with type       |                                                                  | <code>const name = () : type => {<br/>&nbsp;&nbsp;█<br/> }</code>       |
+| `caaft→` | const async arrow function with type |                                                                  | <code>const name = async () : type => {<br/>&nbsp;&nbsp;█<br/> }</code> |
 
 ### Destructuring
 
@@ -150,29 +152,29 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Object Elements
 
-|  Trigger | Description                  | Result JS/TS                       |
-| -------: | ---------------------------- | ---------------------------------- |
-|   `oev→` | obj element variable         | `key: value,█`                     |
-|   `oes→` | obj element string           | `key: 'value',█`                   |
-|   `oen→` | obj element number           | `key: number,█`                    |
-|   `oeb→` | obj element boolean          | `key: true,█`                      |
-|   `oeo→` | obj element object           | `key: { element },█`             |
+|  Trigger | Description                  | Result JS/TS                                          |
+| -------: | ---------------------------- | ----------------------------------------------------- |
+|   `oev→` | obj element variable         | `key: value,█`                                        |
+|   `oes→` | obj element string           | `key: 'value',█`                                      |
+|   `oen→` | obj element number           | `key: number,█`                                       |
+|   `oeb→` | obj element boolean          | `key: true,█`                                         |
+|   `oeo→` | obj element object           | `key: { element },█`                                  |
 |  `oeom→` | obj element object multiline | <code>key: {<br/>&nbsp;&nbsp;element, <br/>},█</code> |
-|   `oea→` | obj element array            | `key: [ value ],█`                        |
-|  `oeam→` | obj element array multiline  | <code>key: [<br/>&nbsp;&nbsp;value, <br/>],█</code> |
+|   `oea→` | obj element array            | `key: [ value ],█`                                    |
+|  `oeam→` | obj element array multiline  | <code>key: [<br/>&nbsp;&nbsp;value, <br/>],█</code>   |
 
 ### JSON Elements
 
 |  Trigger | Description                   | Result JS/TS                                            |
 | -------: | ----------------------------- | ------------------------------------------------------- |
-|   `jev→` | json element variable         | `key: value,█`                                       |
-|   `jes→` | json element string           | `key: 'value',█`                                     |
-|   `jen→` | json element number           | `key: number,█`                                      |
-|   `jeb→` | json element boolean          | `key: true,█`                                        |
-|   `jeo→` | json element object           | `key: { element }█`                                |
-|  `jeom→` | json element object multiline | <code>key: {<br/>&nbsp;&nbsp;element , <br/>},█</code> |
-|   `jea→` | json element array            | `key: [ value ],█`                                   |
-|  `jeam→` | json element array multiline  | <code>key: [<br/>&nbsp;&nbsp;value , <br/>],█</code>   |
+|   `jes→` | json element string           | `key: 'value',█`                                        |
+|   `jev→` | json element variable         | `key: value,█`                                          |
+|   `jen→` | json element number           | `key: number,█`                                         |
+|   `jeb→` | json element boolean          | `key: true,█`                                           |
+|   `jeo→` | json element object           | `key: { element }█`                                     |
+|  `jeom→` | json element object multiline | <code>key: {<br/>&nbsp;&nbsp;element , <br/>},█</code>  |
+|   `jea→` | json element array            | `key: [ value ],█`                                      |
+|  `jeam→` | json element array multiline  | <code>key: [<br/>&nbsp;&nbsp;value , <br/>],█</code>    |
 
 > ℹ️ Only available in `.json`, `.jsonc` and `.json5` files
 

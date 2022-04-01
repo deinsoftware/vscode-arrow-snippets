@@ -33,5 +33,10 @@
     "prefix": "caf",
     "body": ["const ${1:name} = ($2) => {", "\t$0", "}"],
     "description": "Constant Arrow function"
+  },
+  "constantAsyncArrowFunction": {
+    "prefix": "caaf",
+    "body": ["const ${1:name} = async ($2) => {", "\t$0", "}"],
+    "description": "Constant Async Arrow function"
   }
 }
