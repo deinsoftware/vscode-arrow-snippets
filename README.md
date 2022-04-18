@@ -121,23 +121,34 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ### Variables
 
-|  Trigger | Description                          | Result JS                                                        | Result TS                                                               |
-| -------: | ------------------------------------ | ---------------------------------------------------------------- | ----------------------------------------------------------------------- |
-|    `cv→` | const variable                       | `const name = █`                                                 | `const name = █`                                                        |
-|   `cvt→` | const variable type                  |                                                                  | `const name: type = █`                                                  |
-|   `cvm→` | const variable multiple type         |                                                                  | <code>const name: (type &#124; type) = █</code>                         |
-|    `cs→` | const string                         | `const name = '█'`                                               | `const name: string = '█'`                                              |
-|    `cn→` | const number                         | `const name = 0█`                                                | `const name: number = 0█`                                               |
-|    `cb→` | const boolean                        | `const name = true█`                                             | `const name: boolean = true█`                                           |
-|    `co→` | const object                         | `const name = {█}`                                               | `const name = {█}`                                                      |
-|   `coi→` | const object interface               |                                                                  | `const name: Interface = {█}`                                           |
-|    `ca→` | const array                          | `const name = [█]`                                               | `const name = [█]`                                                      |
-|   `cat→` | const array type                     |                                                                  | `const name: type = [█]`                                                |
-|   `cam→` | const array multiple type            |                                                                  | <code>const name: (type &#124; type) = [█]</code>                       |
-|   `caf→` | const arrow function                 | <code>const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code>       | <code>const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code>              |
-|  `caaf→` | const async arrow function           | <code>const name = async () => {<br/>&nbsp;&nbsp;█<br/> }</code> | <code>const name = async () => {<br/>&nbsp;&nbsp;█<br/> }</code>        |
-|  `caft→` | const arrow function with type       |                                                                  | <code>const name = () : type => {<br/>&nbsp;&nbsp;█<br/> }</code>       |
-| `caaft→` | const async arrow function with type |                                                                  | <code>const name = async () : type => {<br/>&nbsp;&nbsp;█<br/> }</code> |
+|  Trigger | Description                  | Result JS            | Result TS                                         |
+| -------: | ---------------------------- | -------------------- | ------------------------------------------------- |
+|    `cv→` | const variable               | `const name = █`     | `const name = █`                                  |
+|   `cvt→` | const variable type          |                      | `const name: type = █`                            |
+|   `cvm→` | const variable multiple type |                      | <code>const name: (type &#124; type) = █</code>   |
+|    `cs→` | const string                 | `const name = '█'`   | `const name: string = '█'`                        |
+|    `cn→` | const number                 | `const name = 0█`    | `const name: number = 0█`                         |
+|    `cb→` | const boolean                | `const name = true█` | `const name: boolean = true█`                     |
+|    `co→` | const object                 | `const name = {█}`   | `const name = {█}`                                |
+|   `coi→` | const object interface       |                      | `const name: Interface = {█}`                     |
+|    `ca→` | const array                  | `const name = [█]`   | `const name = [█]`                                |
+|   `cat→` | const array type             |                      | `const name: type = [█]`                          |
+|   `cam→` | const array multiple type    |                      | <code>const name: (type &#124; type) = [█]</code> |
+
+### Functions
+
+|  Trigger | Description                                     | Result JS                                                                | Result TS                                                                      |
+| -------: | ----------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+|   `edaf→` | export default anonymous arrow function        | <code>export default () => {<br/>&nbsp;&nbsp;█<br/> }</code>             | <code>export default () => {<br/>&nbsp;&nbsp;█<br/> }</code>                   |
+|  `edaaf→` | export default async anonymous arrow function  | <code>export default async () => {<br/>&nbsp;&nbsp;█<br/> }</code>       | <code>export default async () => {<br/>&nbsp;&nbsp;█<br/> }</code>             |
+|    `caf→` | const arrow function                           | <code>const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code>               | <code>const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code>                     |
+|   `ecaf→` | export const arrow function                    | <code>export const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code>        | <code>export const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code>              |
+|   `caaf→` | const async arrow function                     | <code>const name = async () => {<br/>&nbsp;&nbsp;█<br/> }</code>         | <code>const name = async () => {<br/>&nbsp;&nbsp;█<br/> }</code>               |
+|  `ecaaf→` | export const async arrow function              | <code>export const name = async () => {<br/>&nbsp;&nbsp;█<br/> }</code>  | <code>export const name = async () => {<br/>&nbsp;&nbsp;█<br/> }</code>        |
+|   `caft→` | const arrow function with type                 |                                                                          | <code>const name = () : type => {<br/>&nbsp;&nbsp;█<br/> }</code>              |
+|  `ecaft→` | export const arrow function with type          |                                                                          | <code>export const name = () : type => {<br/>&nbsp;&nbsp;█<br/> }</code>       |
+|  `caaft→` | const async arrow function with type           |                                                                          | <code>const name = async () : type => {<br/>&nbsp;&nbsp;█<br/> }</code>        |
+| `ecaaft→` | export const async arrow function with type    |                                                                          | <code>export const name = async () : type => {<br/>&nbsp;&nbsp;█<br/> }</code> |
 
 ### Destructuring
 

@@ -1,0 +1,32 @@
+{
+  "exportDefaultArrowFunction": {
+    "prefix": "edaf",
+    "body": ["export default ($1) => {", "\t$0", "}"],
+    "description": "Export Default Anonymous Arrow function"
+  },
+  "exportDefaultAsyncArrowFunction": {
+    "prefix": "edaaf",
+    "body": ["export default async ($1) => {", "\t$0", "}"],
+    "description": "Export Default Async Anonymous Arrow function"
+  },
+  "constantArrowFunction": {
+    "prefix": "caf",
+    "body": ["const ${1:name} = ($2) => {", "\t$0", "}"],
+    "description": "Constant Arrow function"
+  },
+  "exportConstantArrowFunction": {
+    "prefix": "ecaf",
+    "body": ["export const ${1:name} = ($2) => {", "\t$0", "}"],
+    "description": "Export Constant Arrow function"
+  },
+  "constantAsyncArrowFunction": {
+    "prefix": "caaf",
+    "body": ["const ${1:name} = async ($2) => {", "\t$0", "}"],
+    "description": "Constant Async Arrow function"
+  },
+  "exportConstantAsyncArrowFunction": {
+    "prefix": "ecaaf",
+    "body": ["export const ${1:name} = async ($2) => {", "\t$0", "}"],
+    "description": "Export Constant Async Arrow function"
+  }
+}

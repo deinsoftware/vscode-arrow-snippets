@@ -1,7 +1,7 @@
 {
   "name": "arrow-function-snippets",
   "description": "VS Code Arrow function snippets for JS and TS",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "displayName": "Arrow Function Snippets",
   "publisher": "deinsoftware",
   "icon": "images/light-icon.png",
@@ -61,6 +61,10 @@
         "path": "./snippets/var-js.json"
       },
       {
+        "language": "javascript",
+        "path": "./snippets/function-js.json"
+      },
+      {
         "language": "javascriptreact",
         "path": "./snippets/arrays.json"
       },
@@ -81,6 +85,10 @@
         "path": "./snippets/var-js.json"
       },
       {
+        "language": "javascriptreact",
+        "path": "./snippets/function-js.json"
+      },
+      {
         "language": "jsx-attr",
         "path": "./snippets/arrays.json"
       },
@@ -101,6 +109,10 @@
         "path": "./snippets/var-js.json"
       },
       {
+        "language": "jsx-attr",
+        "path": "./snippets/function-js.json"
+      },
+      {
         "language": "vue",
         "path": "./snippets/arrays.json"
       },
@@ -119,6 +131,10 @@
       {
         "language": "vue",
         "path": "./snippets/var-js.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/function-js.json"
       },
       {
         "language": "typescript",
@@ -142,6 +158,10 @@
       },
       {
         "language": "typescriptreact",
+        "path": "./snippets/function-ts.json"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/arrays.json"
       },
       {
@@ -159,6 +179,10 @@
       {
         "language": "tsx-attr",
         "path": "./snippets/var-ts.json"
+      },
+      {
+        "language": "tsx-attr",
+        "path": "./snippets/function-ts.json"
       },
       {
         "language": "tsx-attr",
@@ -179,6 +203,10 @@
       {
         "language": "typescript",
         "path": "./snippets/var-ts.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/function-ts.json"
       },
       {
         "language": "json",

@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [1.11.0] - 2022/04/17
+
+### Added
+
+- new export function section snippets
+
 ## [1.10.0] - 2022/04/01
 
 ### Added
