@@ -17,6 +17,7 @@ The quick and easy way to create and use [Arrow Functions](https://developer.moz
   - [Extension Manager](#extension-manager)
   - [Marketplace](#marketplace)
 - [Supported Languages](#supported-languages)
+- [Regular VS Arrow Functions](#regular-vs-arrow-functions)
 - [Snippets](#snippets)
   - [Arrow Function](#arrow-function)
   - [Promises](#promises)
@@ -68,6 +69,33 @@ Open the extension manager with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>X</kbd> (W
 | JSON5 ℹ️          | `.json5`  |
 
 > ℹ️ Only JSON elements snippets are available
+
+⇧ [Back to menu](#menu)
+
+---
+
+## Regular VS Arrow Functions
+
+### Syntax
+
+The arrow function allows to accomplish the same result with fewer lines of code and approximately half the typing.
+Curly brackets aren't required if only one expression is present.
+
+### Arguments binding
+
+Arrow functions do not have an arguments binding. But the same functionality can be achieved using rest parameters.
+
+### Use of this keyword
+
+Unlike regular functions, arrow functions do not have their own `this`. The value of `this` inside an arrow function remains the same throughout the lifecycle of the function and is always bound to the value of `this` in the closest non-arrow parent function.
+
+### Using new keyword
+
+Regular functions created using function declarations or expressions are constructible and callable. Since regular functions are constructible, they can be called using the `new` keyword. However, the arrow functions are only callable and not constructible, so arrow functions can never be used as constructor functions. Hence, they can never be invoked with the `new` keyword.
+
+### No duplicate named parameters
+
+Arrow functions can never have duplicate named parameters, whether in strict or non-strict mode.
 
 ⇧ [Back to menu](#menu)
 
