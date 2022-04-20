@@ -24,9 +24,6 @@ The quick and easy way to create and use [Arrow Functions](https://developer.moz
   - [Arrays](#arrays)
   - [Variables](#variables)
   - [Functions](#functions)
-  - [Destructuring](#destructuring)
-  - [Object Elements](#object-elements)
-  - [JSON Elements](#json-elements)
 - [Examples](#examples)
 - [About](#about)
 
@@ -171,45 +168,6 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |  `ecaft→` | export const arrow function with type          |                                                                          | <code>export const name = () : type => {<br/>&nbsp;&nbsp;█<br/> }</code>       |
 |  `caaft→` | const async arrow function with type           |                                                                          | <code>const name = async () : type => {<br/>&nbsp;&nbsp;█<br/> }</code>        |
 | `ecaaft→` | export const async arrow function with type    |                                                                          | <code>export const name = async () : type => {<br/>&nbsp;&nbsp;█<br/> }</code> |
-
-### Destructuring
-
-|  Trigger | Description                     | Result JS/TS                          |
-| -------: | ------------------------------- | ------------------------------------- |
-|   `cod→` | const object dest               | `const {prop, prop} = name█`          |
-|  `codr→` | const object dest with rest     | `const {prop, prop, ...rest} = name█` |
-|   `cad→` | const array dest                | `const [prop, prop] = name█`          |
-|  `cadr→` | const array dest with rest      | `const [prop, prop, ...rest] = name█` |
-|    `pd→` | parameter object dest           | `{prop, prop█}`                       |
-|   `pdr→` | parameter object dest with rest | `{prop, prop, ...rest█}`              |
-
-### Object Elements
-
-|  Trigger | Description                  | Result JS/TS                                          |
-| -------: | ---------------------------- | ----------------------------------------------------- |
-|   `oev→` | obj element variable         | `key: value,█`                                        |
-|   `oes→` | obj element string           | `key: 'value',█`                                      |
-|   `oen→` | obj element number           | `key: number,█`                                       |
-|   `oeb→` | obj element boolean          | `key: true,█`                                         |
-|   `oeo→` | obj element object           | `key: { element },█`                                  |
-|  `oeom→` | obj element object multiline | <code>key: {<br/>&nbsp;&nbsp;element, <br/>},█</code> |
-|   `oea→` | obj element array            | `key: [ value ],█`                                    |
-|  `oeam→` | obj element array multiline  | <code>key: [<br/>&nbsp;&nbsp;value, <br/>],█</code>   |
-
-### JSON Elements
-
-|  Trigger | Description                   | Result JS/TS                                            |
-| -------: | ----------------------------- | ------------------------------------------------------- |
-|   `jes→` | json element string           | `key: 'value',█`                                        |
-|   `jev→` | json element variable         | `key: value,█`                                          |
-|   `jen→` | json element number           | `key: number,█`                                         |
-|   `jeb→` | json element boolean          | `key: true,█`                                           |
-|   `jeo→` | json element object           | `key: { element }█`                                     |
-|  `jeom→` | json element object multiline | <code>key: {<br/>&nbsp;&nbsp;element , <br/>},█</code>  |
-|   `jea→` | json element array            | `key: [ value ],█`                                      |
-|  `jeam→` | json element array multiline  | <code>key: [<br/>&nbsp;&nbsp;value , <br/>],█</code>    |
-
-> ℹ️ Only available in `.json`, `.jsonc` and `.json5` files
 
 ⇧ [Back to menu](#menu)
 

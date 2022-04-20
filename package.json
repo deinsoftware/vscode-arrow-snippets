@@ -1,7 +1,7 @@
 {
   "name": "arrow-function-snippets",
   "description": "VS Code Arrow function snippets for JS and TS",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "displayName": "Arrow Function Snippets",
   "publisher": "deinsoftware",
   "icon": "images/light-icon.png",
@@ -46,10 +46,6 @@
       },
       {
         "language": "javascript",
-        "path": "./snippets/destructuring.json"
-      },
-      {
-        "language": "javascript",
         "path": "./snippets/elements.json"
       },
       {
@@ -70,10 +66,6 @@
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/destructuring.json"
-      },
-      {
-        "language": "javascriptreact",
         "path": "./snippets/elements.json"
       },
       {
@@ -91,10 +83,6 @@
       {
         "language": "jsx-attr",
         "path": "./snippets/arrow.json"
-      },
-      {
-        "language": "jsx-attr",
-        "path": "./snippets/destructuring.json"
       },
       {
         "language": "jsx-attr",
@@ -118,10 +106,6 @@
       },
       {
         "language": "vue",
-        "path": "./snippets/destructuring.json"
-      },
-      {
-        "language": "vue",
         "path": "./snippets/elements.json"
       },
       {
@@ -139,10 +123,6 @@
       {
         "language": "typescript",
         "path": "./snippets/arrow.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/destructuring.json"
       },
       {
         "language": "typescript",
@@ -166,10 +146,6 @@
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/destructuring.json"
-      },
-      {
-        "language": "typescriptreact",
         "path": "./snippets/elements.json"
       },
       {
@@ -187,10 +163,6 @@
       {
         "language": "tsx-attr",
         "path": "./snippets/arrow.json"
-      },
-      {
-        "language": "tsx-attr",
-        "path": "./snippets/destructuring.json"
       },
       {
         "language": "tsx-attr",

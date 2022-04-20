@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [2.0.1] - 2022/04/20
+
+### Removed
+
+- destructuring snippets were moved to a new extension [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.
+
 ## [2.0.0] - 2022/04/20
 
 ### Removed
