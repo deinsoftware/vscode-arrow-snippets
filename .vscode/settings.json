@@ -1,5 +1,12 @@
 {
-  "cSpell.words": ["buymeacoffee", "deinsoftware", "Equiman", "volta"],
+  "cSpell.words": [
+    "buymeacoffee",
+    "deinsoftware",
+    "Equiman",
+    "patreon",
+    "paypal",
+    "volta"
+  ],
   "markdownlint.config": {
     "MD024": { "siblings_only": true }
   }
