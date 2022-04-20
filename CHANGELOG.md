@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [2.1.0] - 2022/04/17
+
+### Added
+
+- `afeea` snippet for explicit empty with arguments
+
 ## [2.0.1] - 2022/04/20
 
 ### Removed

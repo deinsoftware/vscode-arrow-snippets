@@ -44,6 +44,11 @@
     "body": ["() => {", "\t$0", "}"],
     "description": "Arrow function (without return)"
   },
+  "arrowFunctionExplicitEmptyWithArguments": {
+    "prefix": "afeea",
+    "body": ["(${1:arg}) => {", "\t$0", "}"],
+    "description": "Arrow function (without return) with arguments"
+  },
   "arrowFunctionParentheses": {
     "prefix": "afp",
     "body": ["() => {", "\t( ${0} )", "}"],

@@ -10,6 +10,8 @@
 
 The quick and easy way to create and use [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) with [VS Code](https://code.visualstudio.com/).
 
+> We also **recommend** installing his complement extension [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets)
+
 ## Menu
 
 - [Installation](#installation)
@@ -102,7 +104,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 |  Trigger | Description                            | Result JS/TS                                                     |
 | -------: | -------------------------------------- | ---------------------------------------------------------------- |
-|    `af→` | implicit return without args           | `() => █`                                                        |
+|    `af→` | implicit return without arg(s          | `() => █`                                                        |
 |   `afa→` | implicit return with arg(s)            | `(arg) => █`                                                     |
 |  `afad→` | implicit return with arg destructuring | `({prop, prop}) => █`                                            |
 |   `afo→` | implicit return object                 | `() => ({prop: value█})`                                         |
@@ -111,8 +113,9 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |  `afea→` | explicit return with arg(s)            | <code>(arg) => {<br/>&nbsp;&nbsp;return █<br/> }</code>          |
 | `afead→` | explicit return with arg destructuring | <code>({prop, prop}) => {<br/>&nbsp;&nbsp;return █<br/> }</code> |
 |  `afee→` | explicit empty                         | <code>() => {<br/>&nbsp;&nbsp;█<br/> }</code>                    |
-|   `afp→` | explicit with parentheses               | <code>() => {<br/>&nbsp;&nbsp;(█)<br/> }</code>                 |
-|  `afpa→` | explicit with parentheses and arg(s)    | <code>(arg) => {<br/>&nbsp;&nbsp;(█)<br/> }</code>              |
+| `afeea→` | explicit empty with arg(s)             | <code>(arg) => {<br/>&nbsp;&nbsp;█<br/> }</code>                 |
+|   `afp→` | explicit with parentheses              | <code>() => {<br/>&nbsp;&nbsp;(█)<br/> }</code>                  |
+|  `afpa→` | explicit with parentheses and arg(s)   | <code>(arg) => {<br/>&nbsp;&nbsp;(█)<br/> }</code>               |
 |  `iiaf→` | immediately invoque                    | `(() => █)()`                                                    |
 
 ### Promises
