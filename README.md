@@ -24,7 +24,6 @@ The quick and easy way to create and use [Arrow Functions](https://developer.moz
   - [Arrow Function](#arrow-function)
   - [Promises](#promises)
   - [Arrays](#arrays)
-  - [Variables](#variables)
   - [Functions](#functions)
 - [Examples](#examples)
 - [About](#about)
@@ -140,22 +139,6 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `arsna→`  | sort number ascending   | `array.sort((a, b) => a - b)█`                                                           |
 | `arsnd→`  | sort number descending  | `array.sort((a, b) => b - a)█`                                                           |
 | `aruv→`   | unique values           | `const newArray = array.filter((current, index, arr) => arr.indexOf(current) == index)█` |
-
-### Variables
-
-|  Trigger | Description                  | Result JS            | Result TS                                         |
-| -------: | ---------------------------- | -------------------- | ------------------------------------------------- |
-|    `cv→` | const variable               | `const name = █`     | `const name = █`                                  |
-|   `cvt→` | const variable type          |                      | `const name: type = █`                            |
-|   `cvm→` | const variable multiple type |                      | <code>const name: (type &#124; type) = █</code>   |
-|    `cs→` | const string                 | `const name = '█'`   | `const name: string = '█'`                        |
-|    `cn→` | const number                 | `const name = 0█`    | `const name: number = 0█`                         |
-|    `cb→` | const boolean                | `const name = true█` | `const name: boolean = true█`                     |
-|    `co→` | const object                 | `const name = {█}`   | `const name = {█}`                                |
-|   `coi→` | const object interface       |                      | `const name: Interface = {█}`                     |
-|    `ca→` | const array                  | `const name = [█]`   | `const name = [█]`                                |
-|   `cat→` | const array type             |                      | `const name: type = [█]`                          |
-|   `cam→` | const array multiple type    |                      | <code>const name: (type &#124; type) = [█]</code> |
 
 ### Functions
 

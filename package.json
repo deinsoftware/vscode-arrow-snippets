@@ -1,7 +1,7 @@
 {
   "name": "arrow-function-snippets",
   "description": "VS Code Arrow function snippets for JS and TS",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "displayName": "Arrow Function Snippets",
   "publisher": "deinsoftware",
   "icon": "images/light-icon.png",
@@ -46,14 +46,6 @@
       },
       {
         "language": "javascript",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/var-js.json"
-      },
-      {
-        "language": "javascript",
         "path": "./snippets/function-js.json"
       },
       {
@@ -63,14 +55,6 @@
       {
         "language": "javascriptreact",
         "path": "./snippets/arrow.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/var-js.json"
       },
       {
         "language": "javascriptreact",
@@ -86,14 +70,6 @@
       },
       {
         "language": "jsx-attr",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "jsx-attr",
-        "path": "./snippets/var-js.json"
-      },
-      {
-        "language": "jsx-attr",
         "path": "./snippets/function-js.json"
       },
       {
@@ -103,14 +79,6 @@
       {
         "language": "vue",
         "path": "./snippets/arrow.json"
-      },
-      {
-        "language": "vue",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "vue",
-        "path": "./snippets/var-js.json"
       },
       {
         "language": "vue",
@@ -123,14 +91,6 @@
       {
         "language": "typescript",
         "path": "./snippets/arrow.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/var-ts.json"
       },
       {
         "language": "typescriptreact",
@@ -145,14 +105,6 @@
         "path": "./snippets/arrow.json"
       },
       {
-        "language": "typescriptreact",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "tsx-attr",
-        "path": "./snippets/var-ts.json"
-      },
-      {
         "language": "tsx-attr",
         "path": "./snippets/function-ts.json"
       },
@@ -163,14 +115,6 @@
       {
         "language": "tsx-attr",
         "path": "./snippets/arrow.json"
-      },
-      {
-        "language": "tsx-attr",
-        "path": "./snippets/elements.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/var-ts.json"
       },
       {
         "language": "typescript",
