@@ -23,6 +23,7 @@ The quick and easy way to create and use [Arrow Functions](https://developer.moz
   - [Promises](#promises)
   - [Arrays](#arrays)
   - [Variables](#variables)
+  - [Functions](#functions)
   - [Destructuring](#destructuring)
   - [Object Elements](#object-elements)
   - [JSON Elements](#json-elements)
@@ -64,11 +65,6 @@ Open the extension manager with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>X</kbd> (W
 | JavaScript React | `.jsx`    |
 | TypeScript React | `.tsx`    |
 | Vue              | `.vue`    |
-| JSON ℹ️           | `.json`   |
-| JSONC ℹ️          | `.jsonc`  |
-| JSON5 ℹ️          | `.json5`  |
-
-> ℹ️ Only JSON elements snippets are available
 
 ⇧ [Back to menu](#menu)
 
@@ -137,8 +133,6 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 |  Trigger  | Description             | Result JS/TS                                                                             |
 | --------: | ------------------------| ---------------------------------------------------------------------------------------- |
-| `arfe→`   | first element           | `array.at(1)█`                                                                           |
-| `arle→`   | last element            | `array.at(-1)█`                                                                          |
 | `arfeq→`  | filter equal            | `const newArray = array.filter((element) => element === value)█`                         |
 | `arfne→`  | filter not equal        | `const newArray = array.filter((element) => element !== value)█`                         |
 | `arfoeq→` | filter object equal     | `const newArray = array.filter((element) => element.prop === value)█`                    |

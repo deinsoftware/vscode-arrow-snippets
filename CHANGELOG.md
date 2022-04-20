@@ -9,6 +9,13 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [2.0.0] - 2022/04/20
+
+### Removed
+
+- all the const and properties snippets were moved to a new extension [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets)
+- array snippets not related with arrow functions
+
 ## [1.11.0] - 2022/04/17
 
 ### Added

@@ -1,16 +1,12 @@
 {
   "name": "arrow-function-snippets",
   "description": "VS Code Arrow function snippets for JS and TS",
-  "version": "1.11.0",
+  "version": "2.0.0",
   "displayName": "Arrow Function Snippets",
   "publisher": "deinsoftware",
   "icon": "images/light-icon.png",
   "keywords": [
     "arrow-function",
-    "destructuring",
-    "object-literal",
-    "json",
-    "variables",
     "destructuring",
     "snippets",
     "javascript",

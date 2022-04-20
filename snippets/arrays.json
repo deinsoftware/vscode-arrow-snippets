@@ -1,14 +1,4 @@
 {
-  "arrayFirstElement": {
-    "prefix": "arfe",
-    "body": "${1:array}.at(1)$0",
-    "description": "Array first Element"
-  },
-  "arrayLastElement": {
-    "prefix": "arle",
-    "body": "${1:array}.at(-1)$0",
-    "description": "Array last Element"
-  },
   "arrayFilterEqual": {
     "prefix": "arfeq",
     "body": "const ${1:newArray} = ${2:array}.filter((${3:element}) => ${3:element} === ${4:value})$0",
