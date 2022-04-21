@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [2.1.2] - 2022/04/21
+
+### Fixed
+
+- preview image
+
 ## [2.1.1] - 2022/04/20
 
 ### Removed
