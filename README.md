@@ -136,8 +136,8 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `arfne→`  | filter not equal        | `const newArray = array.filter((element) => element !== value)█`                         |
 | `arfoeq→` | filter object equal     | `const newArray = array.filter((element) => element.prop === value)█`                    |
 | `arfone→` | filter object not equal | `const newArray = array.filter((element) => element.prop !== value)█`                    |
-| `arsna→`  | sort number ascending   | `array.sort((a, b) => a - b)█`                                                           |
-| `arsnd→`  | sort number descending  | `array.sort((a, b) => b - a)█`                                                           |
+| `arsna→`  | sort number ascending   | `array.sort((a, z) => a - z)█`                                                           |
+| `arsnd→`  | sort number descending  | `array.sort((a, z) => z - a)█`                                                           |
 | `aruv→`   | unique values           | `const newArray = array.filter((current, index, arr) => arr.indexOf(current) == index)█` |
 
 ### Functions

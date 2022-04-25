@@ -1,0 +1,32 @@
+{
+  "arrowFunctionResponse": {
+    "prefix": "afr",
+    "body": "(${1:response}) => $0",
+    "description": "Arrow function (implicit return) response"
+  },
+  "arrowFunctionResponseJson": {
+    "prefix": "afrj",
+    "body": "(${1:response}) => ${1:response}.json()$0",
+    "description": "Arrow function (implicit return) response json"
+  },
+  "arrowFunctionResponseData": {
+    "prefix": "afrd",
+    "body": "(${1:response}) => ${1:response}.data$0",
+    "description": "Arrow function (implicit return) response data"
+  },
+  "arrowFunctionExplicitResponse": {
+    "prefix": "afer",
+    "body": ["(${1:response}) => {", "\treturn $0", "}"],
+    "description": "Arrow function (explicit return)"
+  },
+  "arrowFunctionExplicitResponseJson": {
+    "prefix": "aferj",
+    "body": ["(${1:response}) => {", "\treturn ${1:response}.json()", "}$0"],
+    "description": "Arrow function (explicit return) response json"
+  },
+  "arrowFunctionExplicitResponseData": {
+    "prefix": "aferd",
+    "body": ["(${1:response}) => {", "\treturn ${1:response}.data", "}$0"],
+    "description": "Arrow function (explicit return) response data"
+  }
+}

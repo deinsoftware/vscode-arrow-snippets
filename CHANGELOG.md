@@ -9,6 +9,13 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [2.1.3] - 2022/04/21
+
+### Changed
+
+- internal reorganization for promises snippets
+- array order prop names
+
 ## [2.1.2] - 2022/04/21
 
 ### Fixed
