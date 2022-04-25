@@ -8,6 +8,7 @@
     "volta"
   ],
   "markdownlint.config": {
-    "MD024": { "siblings_only": true }
+    "MD024": { "siblings_only": true },
+    "MD033": false
   }
 }
