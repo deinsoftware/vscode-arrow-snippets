@@ -121,6 +121,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 |  Trigger | Description                         | Result JS/TS                                                                  |
 | -------: | ----------------------------------- | ----------------------------------------------------------------------------- |
+|  `afpr→` | promise implicit returns            | <code>promise<br/>&nbsp;&nbsp;.then((response) => { })<br/>&nbsp;&nbsp;.catch((error) => { })<br/>&nbsp;&nbsp;.finally((}) => { })█<br/> }</code>                  |
 |   `afr→` | implicit return response            | `(response) => █`                                                             |
 |  `afrj→` | implicit return response json       | `(response) => response.json()█`                                              |
 |  `afrd→` | implicit return response data       | `(response) => response.data█`                                                |

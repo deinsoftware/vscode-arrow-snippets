@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [2.2.0] - 2022/05/02
+
+### Added
+
+- `afpr` snippet for promise with then, catch and finally
+
 ## [2.1.3] - 2022/04/21
 
 ### Changed
@@ -26,7 +32,7 @@ Security    to invite users to upgrade in case of vulnerabilities.
 
 ### Removed
 
-- variables, json and object literal snippets were moved to a new extension [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.
+- variables, json and object literal snippets were moved to a new extension [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware).
 
 ## [2.1.0] - 2022/04/20
 
@@ -38,7 +44,7 @@ Security    to invite users to upgrade in case of vulnerabilities.
 
 ### Removed
 
-- destructuring snippets were moved to a new extension [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.
+- destructuring snippets were moved to a new extension [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware).
 
 ## [2.0.0] - 2022/04/20
 

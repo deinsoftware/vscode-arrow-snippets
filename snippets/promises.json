@@ -1,4 +1,14 @@
 {
+  "arrowFunctionPromise": {
+    "prefix": "afpr",
+    "body": [
+      "${1:promise}",
+      "\t.then((${2:response}) => { $3 })",
+      "\t.catch((${4:error}) => { $5 })",
+      "\t.finally(() => { $6 })$0"
+    ],
+    "description": "Arrow function Promise"
+  },
   "arrowFunctionResponse": {
     "prefix": "afr",
     "body": "(${1:response}) => $0",
