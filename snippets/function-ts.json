@@ -11,8 +11,13 @@
   },
   "constantArrowFunction": {
     "prefix": "caf",
-    "body": ["const ${1:name} = ($2) => {", "\t$0", "}"],
-    "description": "Constant Arrow function (implicit return type)"
+    "body": ["const ${1:name} = ($2) => $0"],
+    "description": "Constant Arrow function (implicit return)"
+  },
+  "constantArrowFunctionExplicit": {
+    "prefix": "cafe",
+    "body": ["const ${1:name} = ($2) => {", "\treturn $0", "}"],
+    "description": "Constant Arrow function (explicit return)"
   },
   "exportConstantArrowFunction": {
     "prefix": "ecaf",

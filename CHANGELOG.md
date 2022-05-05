@@ -9,6 +9,14 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [2.3.0] - 2022/05/05
+
+### Changed
+
+- `caf` snippet to `cafe`
+- `caf` for implicit return
+- `cafe` for explicit return
+
 ## [2.2.1] - 2022/05/03
 
 ### Fixed
