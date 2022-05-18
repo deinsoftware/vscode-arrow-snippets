@@ -1,6 +1,6 @@
 # Arrow Function Snippets
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/deinsoftware.arrow-function-snippets.svg?color=blue)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
+[![Version](https://vsmarketplacebadge.apphb.com/version/deinsoftware.arrow-function-snippets.svg?color=blue&label=version)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/deinsoftware.arrow-function-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/deinsoftware.arrow-function-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
 [![license](https://img.shields.io/github/license/deinsoftware/vscode-arrow-snippets)](LICENSE.md)
