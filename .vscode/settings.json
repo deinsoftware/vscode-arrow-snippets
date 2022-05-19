@@ -15,6 +15,7 @@
     "arfne",
     "arfoeq",
     "arfone",
+    "arrowfunction",
     "arsna",
     "arsnd",
     "aruv",
@@ -29,11 +30,13 @@
     "ecaft",
     "edaaf",
     "edaf",
+    "Eomm",
     "Equiman",
     "iiaf",
     "patreon",
     "paypal",
-    "volta"
+    "volta",
+    "vuejs"
   ],
   "markdownlint.config": {
     "MD024": { "siblings_only": true },
