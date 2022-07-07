@@ -10,7 +10,7 @@
 
 The quick and easy way to create and use [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) with [VS Code](https://code.visualstudio.com/).
 
-> We also **recommend** installing his complement extension [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets)
+> We also **recommend** installing his complement extensions [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware.const-props-snippets) and [Debug](https://marketplace.visualstudio.com/items?itemName=deinsoftware.debug-snippets)
 
 ## Menu
 

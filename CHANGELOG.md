@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## [2.5.2] - 2022/07/06
+
+### Fixed
+
+- Add sibling extension to README
+
 ## [2.5.1] - 2022/06/23
 
 ### Fixed
