@@ -8,7 +8,20 @@ on:
     types: [published]
 
 jobs:
+  publish-vsce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          registry-url: https://registry.npmjs.org/
+      - run: npm i -g vsce
+      - run: vsce publish -p ${{ secrets.VSCE_PAT }}
+
   tweet:
+    needs: publish-vsce
+    if: ${{ success() }}
     runs-on: ubuntu-latest
     steps:
       - uses: Eomm/why-don-t-you-tweet@v1
