@@ -44,5 +44,10 @@
   },
   "explorer.fileNesting.patterns": {
     "README*": "CHANGELOG*, CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE*, README*, CHEATSHEET*"
+  },
+  "[json][jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
