@@ -63,5 +63,40 @@
     "prefix": ["iiaf", "afii"],
     "body": "(() => $0)()",
     "description": "Arrow function Immediately Invoke"
+  },
+  "arrowAsyncFunction": {
+    "prefix": "aaf",
+    "body": "async () => $0",
+    "description": "Arrow async function"
+  },
+  "arrowAsyncFunctionWithArguments": {
+    "prefix": "aafa",
+    "body": "async (${1:arg}) => $0",
+    "description": "Arrow async function (implicit return) with arguments"
+  },
+  "arrowAsyncFunctionExplicitEmpty": {
+    "prefix": "aafe",
+    "body": ["async () => {", "\t$0", "}"],
+    "description": "Arrow async function (explicit without return)"
+  },
+  "arrowAsyncFunctionExplicitEmptyWithArguments": {
+    "prefix": "aafea",
+    "body": ["async (${1:arg}) => {", "\t$0", "}"],
+    "description": "Arrow async function (explicit without return) with arguments"
+  },
+  "arrowAsyncFunctionExplicitReturn": {
+    "prefix": "aafer",
+    "body": ["async () => {", "\treturn ${0}", "}"],
+    "description": "Arrow async function (explicit with return)"
+  },
+  "arrowAsyncFunctionExplicitReturnWithArguments": {
+    "prefix": "aafera",
+    "body": ["async (${1:arg}) => {", "\treturn ${0}", "}"],
+    "description": "Arrow async function (explicit with return) with arguments"
+  },
+  "arrowAsyncAwaitFunctionExplicitWithArguments": {
+    "prefix": "aaafea",
+    "body": ["async (${1:arg}) => {", "\tconst ${2} = await ${0}", "}"],
+    "description": "Arrow async-await function (explicit with return) with arguments"
   }
 }
