@@ -74,6 +74,11 @@
     "body": "async (${1:arg}) => $0",
     "description": "Arrow async function (implicit return) with arguments"
   },
+  "arrowAsyncFunctionImplicitWithArgumentDestructuring": {
+    "prefix": "aafad",
+    "body": "async ({ ${1:prop} }) => $0",
+    "description": "Arrow function (explicit return) with argument destructuring"
+  },
   "arrowAsyncFunctionExplicitEmpty": {
     "prefix": "aafe",
     "body": ["async () => {", "\t$0", "}"],
@@ -94,9 +99,19 @@
     "body": ["async (${1:arg}) => {", "\treturn ${0}", "}"],
     "description": "Arrow async function (explicit with return) with arguments"
   },
+  "arrowAsyncFunctionExplicitWithArgumentDestructuring": {
+    "prefix": "aafead",
+    "body": ["async ({ ${1:prop} }) => {", "\treturn ${0}", "}"],
+    "description": "Arrow async function (explicit return) with argument destructuring"
+  },
   "arrowAsyncAwaitFunctionExplicitWithArguments": {
     "prefix": "aaafea",
     "body": ["async (${1:arg}) => {", "\tconst ${2} = await ${0}", "}"],
     "description": "Arrow async-await function (explicit with return) with arguments"
+  },
+  "arrowAsyncFunctionImmediatelyInvoque": {
+    "prefix": ["iiaaf", "aafii"],
+    "body": "(async () => $0)()",
+    "description": "Arrow Async function Immediately Invoke"
   }
 }
