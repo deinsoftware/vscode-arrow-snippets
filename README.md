@@ -131,7 +131,6 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |`aafead→` | explicit return with arg destructuring | <code>async ({prop}) => {<br/>&nbsp;&nbsp;return █<br/> }</code> |
 |`aaafea→` | async explicit empty with args & await | <code>async (arg) => {<br/>&nbsp;&nbsp;const █ = await █<br/> }</code>|
 | `aafii→` | async immediately invoked              | `(async () => █)()`                                              |
-|`aafiia→` | async immediately invoked with args    | `(async (args) => █)()`                                          |
 
 ### Promises
 
