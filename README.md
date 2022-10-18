@@ -103,7 +103,7 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 |  Trigger | Description                            | Result JS/TS                                                     |
 | -------: | -------------------------------------- | ---------------------------------------------------------------- |
-|    `af→` | implicit return without arg(s          | `() => █`                                                        |
+|    `af→` | implicit return without arg(s)         | `() => █`                                                        |
 |   `afa→` | implicit return with arg(s)            | `(arg) => █`                                                     |
 |  `afad→` | implicit return with arg destructuring | `({prop, prop}) => █`                                            |
 |   `afo→` | implicit return object                 | `() => ({prop: value█})`                                         |
@@ -116,6 +116,21 @@ Below is a list of all available snippets and the triggers of each one. The **�
 |   `afp→` | explicit with parentheses              | <code>() => {<br/>&nbsp;&nbsp;(█)<br/> }</code>                  |
 |  `afpa→` | explicit with parentheses and arg(s)   | <code>(arg) => {<br/>&nbsp;&nbsp;(█)<br/> }</code>               |
 |  `iiaf→` | immediately invoque                    | `(() => █)()`                                                    |
+
+#### Async Arrow Functions
+
+|  Trigger | Description                            | Result JS/TS                                                     |
+| -------: | -------------------------------------- | ---------------------------------------------------------------- |
+|   `aaf→` | async implicit return without arg(s)   | `async () => █`                                                  |
+|  `aafa→` | async implicit return with arg(s)      | `async (arg) => █`                                               |
+| `aafad→` | async implicit with arg destructuring  | `async ({ prop }) => █`                                          |
+|  `aafe→` | async explicit empty                   | <code>async () => {<br/>&nbsp;&nbsp;█<br/> }</code>              |
+| `aafea→` | async explicit empty with arg(s)       | <code>async (arg) => {<br/>&nbsp;&nbsp;█<br/> }</code>           |
+| `aafer→` | async explicit return                  | <code>async () => {<br/>&nbsp;&nbsp;return █<br/> }</code>       |
+|`aafera→` | async explicit return with arg(s)      | <code>async (arg) => {<br/>&nbsp;&nbsp;return █<br/> }</code>    |
+|`aafead→` | explicit return with arg destructuring | <code>async ({prop}) => {<br/>&nbsp;&nbsp;return █<br/> }</code> |
+|`aaafea→` | async explicit empty with args & await | <code>async (arg) => {<br/>&nbsp;&nbsp;const █ = await █<br/> }</code>|
+| `aafii→` | async immediately invoked              | `(async () => █)()`                                              |
 
 ### Promises
 
