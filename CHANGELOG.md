@@ -17,7 +17,7 @@ Security    to invite users to upgrade in case of vulnerabilities.
 
 ### Added
 
-- Async-await arrow functions, by @pranav-kural
+- Async-await arrow functions, by [@pranav-kural](https://github.com/pranav-kural)
 
 ## 2.5.1 - 2022/06/23
 
