@@ -28,8 +28,8 @@
   "categories": [
     "Snippets"
   ],
-  "main": "./out/extension.js",
-  "browser": "./out/extension.js",
+  "main": "./build/extension.js",
+  "browser": "./build/extension.js",
   "extensionKind": [
     "ui",
     "workspace"
