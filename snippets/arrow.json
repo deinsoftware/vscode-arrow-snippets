@@ -26,28 +26,18 @@
   },
   "arrowFunctionExplicit": {
     "prefix": "afe",
-    "body": ["() => {", "\treturn $0", "}"],
+    "body": ["() => {", "\t${1:return} $0", "}"],
     "description": "Arrow function (explicit return)"
   },
   "arrowFunctionExplicitWithArguments": {
     "prefix": "afea",
-    "body": ["(${1:arg}) => {", "\treturn ${0}", "}"],
+    "body": ["(${1:arg}) => {", "\t${2:return} $0", "}"],
     "description": "Arrow function (explicit return) with arguments"
   },
   "arrowFunctionExplicitWithArgumentDestructuring": {
     "prefix": "afead",
-    "body": ["({${1:prop}, ${2:prop}}) => {", "\treturn ${0}", "}"],
+    "body": ["({${1:prop}, ${2:prop}}) => {", "\t${3:return} $0", "}"],
     "description": "Arrow function (explicit return) with argument destructuring"
-  },
-  "arrowFunctionExplicitEmpty": {
-    "prefix": "afee",
-    "body": ["() => {", "\t$0", "}"],
-    "description": "Arrow function (without return)"
-  },
-  "arrowFunctionExplicitEmptyWithArguments": {
-    "prefix": "afeea",
-    "body": ["(${1:arg}) => {", "\t$0", "}"],
-    "description": "Arrow function (without return) with arguments"
   },
   "arrowFunctionParentheses": {
     "prefix": "afp",
@@ -77,41 +67,31 @@
   "arrowAsyncFunctionImplicitWithArgumentDestructuring": {
     "prefix": "aafad",
     "body": "async ({ ${1:prop} }) => $0",
-    "description": "Arrow function (explicit return) with argument destructuring"
-  },
-  "arrowAsyncFunctionExplicitEmpty": {
-    "prefix": "aafe",
-    "body": ["async () => {", "\t$0", "}"],
-    "description": "Arrow async function (explicit without return)"
-  },
-  "arrowAsyncFunctionExplicitEmptyWithArguments": {
-    "prefix": "aafea",
-    "body": ["async (${1:arg}) => {", "\t$0", "}"],
-    "description": "Arrow async function (explicit without return) with arguments"
+    "description": "Arrow async function (explicit return) with argument destructuring"
   },
   "arrowAsyncFunctionExplicitReturn": {
-    "prefix": "aafer",
-    "body": ["async () => {", "\treturn ${0}", "}"],
+    "prefix": "aafe",
+    "body": ["async () => {", "\t${1:return} $0", "}"],
     "description": "Arrow async function (explicit with return)"
   },
-  "arrowAsyncFunctionExplicitReturnWithArguments": {
-    "prefix": "aafera",
-    "body": ["async (${1:arg}) => {", "\treturn ${0}", "}"],
-    "description": "Arrow async function (explicit with return) with arguments"
+  "arrowAsyncFunctionExplicitWithArguments": {
+    "prefix": "aafea",
+    "body": ["async (${1:arg}) => {", "\t${2:return} $0", "}"],
+    "description": "Arrow async function (explicit without return) with arguments"
   },
   "arrowAsyncFunctionExplicitWithArgumentDestructuring": {
     "prefix": "aafead",
-    "body": ["async ({ ${1:prop} }) => {", "\treturn ${0}", "}"],
+    "body": ["async ({ ${1:prop}, ${2:prop} }) => {", "\t${3:return} $0", "}"],
     "description": "Arrow async function (explicit return) with argument destructuring"
   },
   "arrowAsyncAwaitFunctionExplicitWithArguments": {
     "prefix": "aaafea",
-    "body": ["async (${1:arg}) => {", "\tconst ${2} = await ${0}", "}"],
-    "description": "Arrow async-await function (explicit with return) with arguments"
+    "body": ["async (${1:arg}) => {", "\tconst ${2:name} = await ${0}", "}"],
+    "description": "Arrow async-await function (explicit without return) with arguments"
   },
   "arrowAsyncFunctionImmediatelyInvoque": {
     "prefix": ["iiaaf", "aafii"],
     "body": "(async () => $0)()",
-    "description": "Arrow Async function Immediately Invoke"
+    "description": "Arrow async function Immediately Invoke"
   }
 }
