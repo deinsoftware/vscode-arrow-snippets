@@ -9,11 +9,18 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 3.1.0 - 2022/10/25
+
+### Added
+
+- Restored `afee` and `afeea` snippets by community request, to easy use on unit testing.
+- Added the `aafee` and `aafeea` with async snippets.
+
 ## 3.0.0 - 2022/10/18
 
 ### Removed
 
-- Snippets `afee` and `afeea` on arrow functions without return. Were replaced adding an extra step (with tab) on the other snippets that include return to easy delete if was need.
+- Snippets `afee` and `afeea` on arrow functions without return. Were replaced adding an extra step (with tab) on the other snippets that include return to easy delete if was not need.
 
 ### Added
 
