@@ -9,7 +9,13 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
-## 3.1.1 - 2022/12/11
+## 3.1.2 - 2022/12/14
+
+### Fixed
+
+- Sponsors url
+
+## 3.1.1 - 2022/12/14
 
 ### Fixed
 
