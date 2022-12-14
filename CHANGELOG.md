@@ -13,20 +13,20 @@ Security    to invite users to upgrade in case of vulnerabilities.
 
 ### Fixed
 
-- Marketplace badges url using [VSMarketplaceBadges](https://vsmarketplacebadges.dev/)
+- Badges using [shields.io](https://shields.io/) badges for visual studio marketplace
 
 ## 3.1.0 - 2022/10/25
 
 ### Added
 
-- Restored `afee` and `afeea` snippets by community request, to easy use on unit testing.
-- Added the `aafee` and `aafeea` with async snippets.
+- Restored `afee` and `afeea` snippets by community request, to easy use on unit testing
+- Added the `aafee` and `aafeea` with async snippets
 
 ## 3.0.0 - 2022/10/18
 
 ### Removed
 
-- Snippets `afee` and `afeea` on arrow functions without return. Were replaced adding an extra step (with tab) on the other snippets that include return to easy delete if was not need.
+- Snippets `afee` and `afeea` on arrow functions without return. Were replaced adding an extra step (with tab) on the other snippets that include return to easy delete if was not need
 
 ### Added
 
@@ -87,7 +87,7 @@ Security    to invite users to upgrade in case of vulnerabilities.
 
 ### Removed
 
-- variables, json and object literal snippets were moved to a new extension [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware).
+- variables, json and object literal snippets were moved to a new extension [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware)
 
 ## 2.1.0 - 2022/04/20
 
@@ -99,7 +99,7 @@ Security    to invite users to upgrade in case of vulnerabilities.
 
 ### Removed
 
-- destructuring snippets were moved to a new extension [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware).
+- destructuring snippets were moved to a new extension [Const & Props Snippets](https://marketplace.visualstudio.com/items?itemName=deinsoftware)
 
 ## 2.0.0 - 2022/04/20
 
@@ -162,7 +162,7 @@ Security    to invite users to upgrade in case of vulnerabilities.
 
 ### Added
 
-- Array snippets with `at`, `filter` and `sort`.
+- Array snippets with `at`, `filter` and `sort`
 
 ### Changed
 
