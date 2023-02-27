@@ -2,14 +2,14 @@ import { it, expect, describe } from 'vitest'
 
 const arraysSnippets = require("../snippets/arrays.json")
 const arrowSnippets = require("../snippets/arrow.json")
-const promiseSnippets = require("../snippets/promise.json")
+const promisesSnippets = require("../snippets/promises.json")
 const functionJsSnippets = require("../snippets/function-js.json")
-const functionTsSnippets = require("../snippets/var-ts.json")
+const functionTsSnippets = require("../snippets/function-ts.json")
 
 const snippets = {
   ...arraysSnippets,
   ...arrowSnippets,
-  ...promiseSnippets,
+  ...promisesSnippets,
   ...functionJsSnippets,
   ...functionTsSnippets,
 }
