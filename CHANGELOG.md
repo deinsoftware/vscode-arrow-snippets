@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 3.2.0 - 2023/02/27
+
+### Added
+
+- Unit test before publish task
+
 ## 3.1.2 - 2022/12/14
 
 ### Fixed
