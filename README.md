@@ -26,6 +26,7 @@ The quick and easy way to create and use [Arrow Functions](https://developer.moz
   - [Arrays](#arrays)
   - [Functions](#functions)
 - [Examples](#examples)
+- [Settings](#settings)
 - [About](#about)
 
 ---
@@ -187,6 +188,18 @@ Create a named arrow function combining `cv` and `af`
 Create a response for `fetch` promise with `afrj` and `afrd`
 
 ![Promise](https://raw.githubusercontent.com/deinsoftware/vscode-arrow-snippets/main/.github/examples/example-promise.gif 'Promise')
+
+⇧ [Back to menu](#menu)
+
+---
+
+## Settings
+
+The `editor.snippetSuggestions` setting in vscode `settings.json` will show snippets on top of the suggestion list.
+
+```json
+"editor.snippetSuggestions": "top"
+```
 
 ⇧ [Back to menu](#menu)
 
