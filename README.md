@@ -26,6 +26,7 @@ The quick and easy way to create and use [Arrow Functions](https://developer.moz
   - [Arrays](#arrays)
   - [Functions](#functions)
 - [Examples](#examples)
+- [Keyboard](#keyboard)
 - [Settings](#settings)
 - [About](#about)
 
@@ -98,82 +99,84 @@ Arrow functions can never have duplicate named parameters, whether in strict or 
 
 ## Snippets
 
-Below is a list of all available snippets and the triggers of each one. The **→** means the `TAB` key and `█` the final cursor position.
+Below is a list of all available snippets and the triggers of each one. The `░` means the `TAB` jump position and `█` the final cursor position.
 
 ### Arrow Function
 
-|  Trigger | Description                            | Result JS/TS                                                     |
-| -------: | -------------------------------------- | ---------------------------------------------------------------- |
-|    `af→` | implicit return without arg(s)         | `() => █`                                                        |
-|   `afa→` | implicit return with arg(s)            | `(arg) => █`                                                     |
-|  `afad→` | implicit return with arg destructuring | `({prop, prop}) => █`                                            |
-|   `afo→` | implicit return object                 | `() => ({prop: value█})`                                         |
-|  `afoa→` | implicit return object with arg(s)     | `(arg) => ({prop: value█})`                                      |
-|   `afe→` | explicit return                        | <code>() => {<br/>&nbsp;&nbsp;return █<br/> }</code>             |
-|  `afea→` | explicit return with arg(s)            | <code>(arg) => {<br/>&nbsp;&nbsp;return █<br/> }</code>          |
-| `afead→` | explicit return with arg destructuring | <code>({prop, prop}) => {<br/>&nbsp;&nbsp;return █<br/> }</code> |
-|  `afee→` | explicit empty                         | <code>() => {<br/>&nbsp;&nbsp;█<br/> }</code>                    |
-| `afeea→` | explicit empty with arg(s)             | <code>(arg) => {<br/>&nbsp;&nbsp;█<br/> }</code>                 |
-|   `afp→` | explicit with parentheses              | <code>() => {<br/>&nbsp;&nbsp;(█)<br/> }</code>                  |
-|  `afpa→` | explicit with parentheses and arg(s)   | <code>(arg) => {<br/>&nbsp;&nbsp;(█)<br/> }</code>               |
-|  `afii→` | immediately invoque                    | `(() => █)()`                                                    |
-|  `iiaf→` | immediately invoque                    | `(() => █)()`                                                    |
+|  Trigger | Description                            | Result JS/TS                                                         |
+| -------: | -------------------------------------- | -------------------------------------------------------------------- |
+|    `af→` | implicit return without arg(s)         | `() => █`                                                            |
+|   `afa→` | implicit return with arg(s)            | `(░arg) => █`                                                        |
+|  `afad→` | implicit return with arg destructuring | `({░prop, ░prop}) => █`                                              |
+|   `afo→` | implicit return object                 | `() => ({░prop: value█})`                                            |
+|  `afoa→` | implicit return object with arg(s)     | `(░arg) => ({░prop: value█})`                                        |
+|   `afe→` | explicit return                        | <code>() => {<br/>&nbsp;&nbsp;░return █<br/> }</code>                |
+|  `afea→` | explicit return with arg(s)            | <code>(░arg) => {<br/>&nbsp;&nbsp;░return █<br/> }</code>            |
+| `afead→` | explicit return with arg destructuring | <code>({░prop, ░prop}) => {<br/>&nbsp;&nbsp;░return █<br/> }</code>  |
+|  `afee→` | explicit empty                         | <code>() => {<br/>&nbsp;&nbsp;█<br/> }</code>                        |
+| `afeea→` | explicit empty with arg(s)             | <code>(░arg) => {<br/>&nbsp;&nbsp;█<br/> }</code>                    |
+|   `afp→` | explicit with parentheses              | <code>() => {<br/>&nbsp;&nbsp;(█)<br/> }</code>                      |
+|  `afpa→` | explicit with parentheses and arg(s)   | <code>(░arg) => {<br/>&nbsp;&nbsp;(█)<br/> }</code>                  |
+|  `afii→` | immediately invoque                    | `(() => █)()`                                                        |
+|  `iiaf→` | immediately invoque                    | `(() => █)()`                                                        |
 
 #### Async Arrow Functions
 
-|  Trigger | Description                            | Result JS/TS                                                              |
-| -------: | -------------------------------------- | ------------------------------------------------------------------------- |
-|   `aaf→` | implicit return without arg(s)         | `async () => █`                                                           |
-|  `aafa→` | implicit return with arg(s)            | `async (arg) => █`                                                        |
-| `aafad→` | implicit with arg destructuring        | `async ({ prop }) => █`                                                   |
-|  `aafe→` | explicit return                        | <code>async () => {<br/>&nbsp;&nbsp;return █<br/> }</code>                |
-| `aafea→` | explicit return with arg(s)            | <code>async (arg) => {<br/>&nbsp;&nbsp;return █<br/> }</code>             |
-|`aafead→` | explicit return with arg destructuring | <code>async ({prop, prop}) => {<br/>&nbsp;&nbsp;return █<br/> }</code>    |
-| `aafee→` | explicit empty                         | <code>async () => {<br/>&nbsp;&nbsp;█<br/> }</code>                       |
-|`aafeea→` | explicit empty with arg(s)             | <code>async (arg) => {<br/>&nbsp;&nbsp;█<br/> }</code>                    |
-|`aaafea→` | explicit with args and await           | <code>async (arg) => {<br/>&nbsp;&nbsp;const name = await █<br/> }</code> |
-| `aafii→` | immediately invoked                    | `(async () => █)()`                                                       |
-| `iiaaf→` | immediately invoked                    | `(async () => █)()`                                                       |
+|  Trigger | Description                            | Result JS/TS                                                                 |
+| -------: | -------------------------------------- | ---------------------------------------------------------------------------- |
+|   `aaf→` | implicit return without arg(s)         | `async () => █`                                                              |
+|  `aafa→` | implicit return with arg(s)            | `async (░arg) => █`                                                          |
+| `aafad→` | implicit with arg destructuring        | `async ({ ░prop }) => █`                                                     |
+|  `aafe→` | explicit return                        | <code>async () => {<br/>&nbsp;&nbsp;░return █<br/> }</code>                  |
+| `aafea→` | explicit return with arg(s)            | <code>async (░arg) => {<br/>&nbsp;&nbsp;░return █<br/> }</code>              |
+|`aafead→` | explicit return with arg destructuring | <code>async ({░prop, ░prop}) => {<br/>&nbsp;&nbsp;░return █<br/> }</code>    |
+| `aafee→` | explicit empty                         | <code>async () => {<br/>&nbsp;&nbsp;█<br/> }</code>                          |
+|`aafeea→` | explicit empty with arg(s)             | <code>async (░arg) => {<br/>&nbsp;&nbsp;█<br/> }</code>                      |
+|`aaafea→` | explicit with args and await           | <code>async (░arg) => {<br/>&nbsp;&nbsp;const ░name = await █<br/> }</code>  |
+| `aafii→` | immediately invoked                    | `(async () => █)()`                                                          |
+| `iiaaf→` | immediately invoked                    | `(async () => █)()`                                                          |
 
 ### Promises
 
-|  Trigger | Description                         | Result JS/TS                                                                  |
-| -------: | ----------------------------------- | ----------------------------------------------------------------------------- |
-|  `afpr→` | promise implicit returns            | <code>promise<br/>&nbsp;&nbsp;.then((response) => { })<br/>&nbsp;&nbsp;.catch((error) => { })<br/>&nbsp;&nbsp;.finally(() => { })█<br/> }</code>                  |
-|   `afr→` | implicit return response            | `(response) => █`                                                             |
-|  `afrj→` | implicit return response json       | `(response) => response.json()█`                                              |
-|  `afrd→` | implicit return response data       | `(response) => response.data█`                                                |
-|  `afer→` | explicit return response            | <code>(response) => {<br/>&nbsp;&nbsp;return █<br/> }</code>                  |
-| `aferj→` | explicit return response json       | <code>(response) => {<br/>&nbsp;&nbsp;return response.json()<br/> }█</code>   |
-| `aferd→` | explicit return response data       | <code>(response) => {<br/>&nbsp;&nbsp;return response.data<br/> }█</code>     |
+|  Trigger | Description                         | Result JS/TS                                                                    |
+| -------: | ----------------------------------- | ------------------------------------------------------------------------------- |
+|  `afpr→` | promise implicit returns            | <code>░promise<br/>&nbsp;&nbsp;.then((░response) => {░})<br/>&nbsp;&nbsp;.catch((░error) => {░})<br/>&nbsp;&nbsp;.finally(() => {░})█<br/> }</code>  |
+|   `afr→` | implicit return response            | `(░response) => █`                                                              |
+|  `afrj→` | implicit return response json       | `(░response) => ░response.json()█`                                              |
+|  `afrd→` | implicit return response data       | `(░response) => ░response.data█`                                                |
+|  `afer→` | explicit return response            | <code>(░response) => {<br/>&nbsp;&nbsp;░return █<br/> }</code>                  |
+| `aferj→` | explicit return response json       | <code>(░response) => {<br/>&nbsp;&nbsp;return ░response.json()<br/> }█</code>   |
+| `aferd→` | explicit return response data       | <code>(░response) => {<br/>&nbsp;&nbsp;return ░response.data<br/> }█</code>     |
 
 ### Arrays
 
-|  Trigger  | Description             | Result JS/TS                                                                             |
-| --------: | ------------------------| ---------------------------------------------------------------------------------------- |
-| `arfeq→`  | filter equal            | `const newArray = array.filter((element) => element === value)█`                         |
-| `arfne→`  | filter not equal        | `const newArray = array.filter((element) => element !== value)█`                         |
-| `arfoeq→` | filter object equal     | `const newArray = array.filter((element) => element.prop === value)█`                    |
-| `arfone→` | filter object not equal | `const newArray = array.filter((element) => element.prop !== value)█`                    |
-| `arsna→`  | sort number ascending   | `array.sort((a, z) => a - z)█`                                                           |
-| `arsnd→`  | sort number descending  | `array.sort((a, z) => z - a)█`                                                           |
-| `aruv→`   | unique values           | `const newArray = array.filter((current, index, arr) => arr.indexOf(current) == index)█` |
+|  Trigger   | Description                          | Result JS/TS                                                                                      |
+| ---------: | ------------------------------------ | ------------------------------------------------------------------------------------------------- |
+| `arfeq→`   | filter equal                         | `const ░newArray = ░array.filter((░element) => ░element === ░value)█`                             |
+| `arfne→`   | filter not equal                     | `const ░newArray = ░array.filter((░element) => ░element !== ░value)█`                             |
+| `arfoeq→`  | filter object equal                  | `const ░newArray = ░array.filter((░element) => ░element.░prop === ░value)█`                       |
+| `arfone→`  | filter object not equal              | `const ░newArray = ░array.filter((░element) => ░element.░prop !== ░value)█`                       |
+| `arsna→`   | sort (mutate) number ascending       | `░array.sort((a, z) => a - z)█`                                                                   |
+| `arsnd→`   | sort (mutate) number descending      | `░array.sort((a, z) => z - a)█`                                                                   |
+| `artsna→`  | sort (not mutate) number ascending   | `░array.toSorted((a, z) => a - z)█`                                                               |
+| `artsnd→`  | sort (not mutate) number descending  | `░array.toSorted((a, z) => z - a)█`                                                               |
+| `aruv→`    | unique values                        | `const ░newArray = ░array.filter((░current, ░index, ░arr) => ░arr.indexOf(░current) == ░index)█`  |
 
 ### Functions
 
-|  Trigger | Description                                     | Result JS                                                                | Result TS                                                                      |
-| -------: | ----------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-|   `edaf→` | export default anonymous arrow function        | <code>export default () => {<br/>&nbsp;&nbsp;█<br/> }</code>             | <code>export default () => {<br/>&nbsp;&nbsp;█<br/> }</code>                   |
-|  `edaaf→` | export default async anonymous arrow function  | <code>export default async () => {<br/>&nbsp;&nbsp;█<br/> }</code>       | <code>export default async () => {<br/>&nbsp;&nbsp;█<br/> }</code>             |
-|    `caf→` | const arrow function implicit return           | <code>const name = () => █</code>                                        | <code>const name = () => {█</code>                                             |
-|   `cafe→` | const arrow function explicit return           | <code>const name = () => {<br/>&nbsp;&nbsp;return █<br/> }</code>        | <code>const name = () => {<br/>&nbsp;&nbsp;return █<br/> }</code>              |
-|   `ecaf→` | export const arrow function                    | <code>export const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code>        | <code>export const name = () => {<br/>&nbsp;&nbsp;█<br/> }</code>              |
-|   `caaf→` | const async arrow function                     | <code>const name = async () => {<br/>&nbsp;&nbsp;█<br/> }</code>         | <code>const name = async () => {<br/>&nbsp;&nbsp;█<br/> }</code>               |
-|  `ecaaf→` | export const async arrow function              | <code>export const name = async () => {<br/>&nbsp;&nbsp;█<br/> }</code>  | <code>export const name = async () => {<br/>&nbsp;&nbsp;█<br/> }</code>        |
-|   `caft→` | const arrow function with type                 |                                                                          | <code>const name = () : type => {<br/>&nbsp;&nbsp;█<br/> }</code>              |
-|  `ecaft→` | export const arrow function with type          |                                                                          | <code>export const name = () : type => {<br/>&nbsp;&nbsp;█<br/> }</code>       |
-|  `caaft→` | const async arrow function with type           |                                                                          | <code>const name = async () : type => {<br/>&nbsp;&nbsp;█<br/> }</code>        |
-| `ecaaft→` | export const async arrow function with type    |                                                                          | <code>export const name = async () : type => {<br/>&nbsp;&nbsp;█<br/> }</code> |
+|  Trigger | Description                                     | Result JS                                                                  | Result TS                                                                         |
+| -------: | ----------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+|   `edaf→` | export default anonymous arrow function        | <code>export default (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>              | <code>export default (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>                     |
+|  `edaaf→` | export default async anonymous arrow function  | <code>export default async (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>        | <code>export default async (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>               |
+|    `caf→` | const arrow function implicit return           | <code>const ░name = (░) => █</code>                                        | <code>const ░name = (░) => █</code>                                               |
+|   `cafe→` | const arrow function explicit return           | <code>const ░name = (░) => {<br/>&nbsp;&nbsp;░return █<br/> }</code>       | <code>const ░name = (░) => {<br/>&nbsp;&nbsp;░return █<br/> }</code>              |
+|   `ecaf→` | export const arrow function                    | <code>export const ░name = (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>        | <code>export const ░name = (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>               |
+|   `caaf→` | const async arrow function                     | <code>const ░name = async (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>         | <code>const ░name = async (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>                |
+|  `ecaaf→` | export const async arrow function              | <code>export const ░name = async (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>  | <code>export const ░name = async (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>         |
+|   `caft→` | const arrow function with type                 |                                                                            | <code>const ░name = (░) : ░type => {<br/>&nbsp;&nbsp;█<br/> }</code>              |
+|  `ecaft→` | export const arrow function with type          |                                                                            | <code>export const ░name = (░) : ░type => {<br/>&nbsp;&nbsp;█<br/> }</code>       |
+|  `caaft→` | const async arrow function with type           |                                                                            | <code>const ░name = async (░) : ░type => {<br/>&nbsp;&nbsp;█<br/> }</code>        |
+| `ecaaft→` | export const async arrow function with type    |                                                                            | <code>export const ░name = async (░) : ░type => {<br/>&nbsp;&nbsp;█<br/> }</code> |
 
 ⇧ [Back to menu](#menu)
 
@@ -181,13 +184,22 @@ Below is a list of all available snippets and the triggers of each one. The **�
 
 ## Examples
 
-Create a named arrow function combining `cv` and `af`
-
-![Function](https://raw.githubusercontent.com/deinsoftware/vscode-arrow-snippets/main/.github/examples/example-function.gif 'Function')
-
 Create a response for `fetch` promise with `afrj` and `afrd`
 
 ![Promise](https://raw.githubusercontent.com/deinsoftware/vscode-arrow-snippets/main/.github/examples/example-promise.gif 'Promise')
+
+⇧ [Back to menu](#menu)
+
+---
+
+## Keyboard
+
+Remember to complement the snippets with these keyboard shortcuts that can be used without needing to move the cursor to the start or to the end.
+
+| Action            | Win/Linux          | macOS             |
+| ----------------- | -----------------: | ----------------: |
+| Insert line above | `ctrl+shift+enter` | `cmd+shift+enter` |
+| Insert line below | `ctrl+enter`       | `cmd+enter`       |
 
 ⇧ [Back to menu](#menu)
 
@@ -211,6 +223,7 @@ The `editor.snippetSuggestions` setting in vscode `settings.json` will show snip
 
 - [VS Code](https://code.visualstudio.com/) - Code editing redefined.
 - [Figma](https://www.figma.com/) - The collaborative interface design tool.
+- [SWPM](https://www.npmjs.com/package/swpm) - One Package Manager to command them all.
 
 ### Contributing
 

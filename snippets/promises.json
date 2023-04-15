@@ -1,5 +1,5 @@
 {
-  "arrowFunctionPromise": {
+  "arrowFunction.Promise": {
     "prefix": "afpr",
     "body": [
       "${1:promise}",
@@ -9,32 +9,32 @@
     ],
     "description": "Arrow function Promise"
   },
-  "arrowFunctionResponse": {
+  "arrowFunction.Response": {
     "prefix": "afr",
     "body": "(${1:response}) => $0",
     "description": "Arrow function (implicit return) response"
   },
-  "arrowFunctionResponseJson": {
+  "arrowFunction.Response.Json": {
     "prefix": "afrj",
     "body": "(${1:response}) => ${1:response}.json()$0",
     "description": "Arrow function (implicit return) response json"
   },
-  "arrowFunctionResponseData": {
+  "arrowFunction.Response.Data": {
     "prefix": "afrd",
     "body": "(${1:response}) => ${1:response}.data$0",
     "description": "Arrow function (implicit return) response data"
   },
-  "arrowFunctionExplicitResponse": {
+  "arrowFunction.Explicit.Response": {
     "prefix": "afer",
     "body": ["(${1:response}) => {", "\treturn $0", "}"],
     "description": "Arrow function (explicit return)"
   },
-  "arrowFunctionExplicitResponseJson": {
+  "arrowFunction.Explicit.Response.Json": {
     "prefix": "aferj",
     "body": ["(${1:response}) => {", "\treturn ${1:response}.json()", "}$0"],
     "description": "Arrow function (explicit return) response json"
   },
-  "arrowFunctionExplicitResponseData": {
+  "arrowFunction.Explicit.Response.Data": {
     "prefix": "aferd",
     "body": ["(${1:response}) => {", "\treturn ${1:response}.data", "}$0"],
     "description": "Arrow function (explicit return) response data"

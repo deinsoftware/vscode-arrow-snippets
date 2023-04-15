@@ -9,6 +9,22 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 3.3.0 - 2023/04/15
+
+### Added
+
+- tab jump position icon
+- keyboards tricks on README
+- `toSorted` on array snippets
+
+### Fixed
+
+- `cafe` snippets on JavaScript and TypeScript
+
+### Changed
+
+- rename snippets identifier
+
 ## 3.2.0 - 2023/02/27
 
 ### Added
