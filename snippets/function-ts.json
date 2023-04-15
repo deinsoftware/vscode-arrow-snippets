@@ -1,40 +1,40 @@
 {
-  "exportDefaultArrowFunction": {
+  "export.Default.ArrowFunction": {
     "prefix": "edaf",
     "body": ["export default ($1) => {", "\t$0", "}"],
     "description": "Export Default Anonymous Arrow function"
   },
-  "exportDefaultAsyncArrowFunction": {
+  "export.Default.AsyncArrowFunction": {
     "prefix": "edaaf",
     "body": ["export default async ($1) => {", "\t$0", "}"],
     "description": "Export Default Async Anonymous Arrow function"
   },
-  "constantArrowFunction": {
+  "constant.ArrowFunction": {
     "prefix": "caf",
     "body": ["const ${1:name} = ($2) => $0"],
     "description": "Constant Arrow function (implicit return)"
   },
-  "constantArrowFunctionExplicit": {
+  "constant.ArrowFunction.Explicit": {
     "prefix": "cafe",
-    "body": ["const ${1:name} = ($2) => {", "\treturn $0", "}"],
+    "body": ["const ${1:name} = ($2) => {", "\t${3:return} $0", "}"],
     "description": "Constant Arrow function (explicit return)"
   },
-  "exportConstantArrowFunction": {
+  "export.Constant.ArrowFunction": {
     "prefix": "ecaf",
     "body": ["export const ${1:name} = ($2) => {", "\t$0", "}"],
     "description": "Export Constant Arrow function"
   },
-  "constantAsyncArrowFunction": {
+  "constant.Async.ArrowFunction": {
     "prefix": "caaf",
     "body": ["const ${1:name} = async ($2) => {", "\t$0", "}"],
     "description": "Constant Async Arrow function"
   },
-  "exportConstantAsyncArrowFunction": {
+  "export.Constant.AsyncArrowFunction": {
     "prefix": "ecaaf",
     "body": ["export const ${1:name} = async ($2) => {", "\t$0", "}"],
     "description": "Export Constant Async Arrow function"
   },
-  "constantArrowFunctionType": {
+  "constant.ArrowFunction.Type": {
     "prefix": "caft",
     "body": [
       "const ${1:name} = ($2) : ${3|string,number,boolean,custom|} => {",
@@ -43,7 +43,7 @@
     ],
     "description": "Constant Arrow function (explicit return type)"
   },
-  "exportConstantArrowFunctionType": {
+  "export.ConstantArrow.Function.Type": {
     "prefix": "ecaft",
     "body": [
       "export const ${1:name} = ($2) : ${3|string,number,boolean,custom|} => {",
@@ -52,7 +52,7 @@
     ],
     "description": "Export Constant Arrow function (explicit return type)"
   },
-  "constantAsyncArrowFunctionType": {
+  "constant.AsyncArrowFunction.Type": {
     "prefix": "caaft",
     "body": [
       "const ${1:name} = async ($2) : ${3|string,number,boolean,custom|} => {",
@@ -61,7 +61,7 @@
     ],
     "description": "Constant Async Arrow function (explicit return type)"
   },
-  "exportConstantAsyncArrowFunctionType": {
+  "export.Constant.AsyncArrowFunction.Type": {
     "prefix": "ecaaft",
     "body": [
       "export const ${1:name} = async ($2) : ${3|string,number,boolean,custom|} => {",
