@@ -10,7 +10,6 @@ const snippets = {
   ...arraysSnippets,
   ...arrowSnippets,
   ...promisesSnippets,
-  ...functionJsSnippets,
   ...functionTsSnippets,
 }
 
