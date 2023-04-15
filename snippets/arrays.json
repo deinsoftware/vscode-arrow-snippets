@@ -1,35 +1,45 @@
 {
-  "arrayFilterEqual": {
+  "array.Filter.Equal": {
     "prefix": "arfeq",
     "body": "const ${1:newArray} = ${2:array}.filter((${3:element}) => ${3:element} === ${4:value})$0",
     "description": "Array Filter compare equal"
   },
-  "arrayFilterNotEqual": {
+  "array.Filter.NotEqual": {
     "prefix": "arfne",
     "body": "const ${1:newArray} = ${2:array}.filter((${3:element}) => ${3:element} !== ${4:value})$0",
     "description": "Array Filter compare not equal"
   },
-  "arrayFilterObjectEqual": {
+  "array.Filter.Object.Equal": {
     "prefix": "arfoeq",
     "body": "const ${1:newArray} = ${2:array}.filter((${3:element}) => ${3:element}.${4:prop} === ${5:value})$0",
     "description": "Array Filter Object compare equal"
   },
-  "arrayFilterObjectNotEqual": {
+  "array.Filter.Object.NotEqual": {
     "prefix": "arfone",
     "body": "const ${1:newArray} = ${2:array}.filter((${3:element}) => ${3:element}.${4:prop} !== ${5:value})$0",
     "description": "Array Filter Object compare not equal"
   },
-  "arraySortNumberAsc": {
+  "array.Sort.Number.Asc": {
     "prefix": "arsna",
     "body": "${1:array}.sort((${2:a}, ${3:z}) => ${2:a} - ${3:z})$0",
-    "description": "Array sort numbers ascending"
+    "description": "Array sort (mutate) numbers ascending"
   },
-  "arraySortNumberDesc": {
+  "array.Sort.Number.Desc": {
     "prefix": "arsnd",
     "body": "${1:array}.sort((${2:a}, ${3:z}) => ${3:z} - ${2:a})$0",
-    "description": "Array sort numbers descending"
+    "description": "Array sort (mutate) numbers descending"
   },
-  "arrayUniqueValues": {
+  "array.ToSorted.Number.Asc": {
+    "prefix": "artsna",
+    "body": "${1:array}.toSorted((${2:a}, ${3:z}) => ${2:a} - ${3:z})$0",
+    "description": "Array sort (not mutate) numbers ascending"
+  },
+  "array.ToSorted.Number.Desc": {
+    "prefix": "artsnd",
+    "body": "${1:array}.toSorted((${2:a}, ${3:z}) => ${3:z} - ${2:a})$0",
+    "description": "Array sort (not mutate) numbers descending"
+  },
+  "array.UniqueValues": {
     "prefix": "aruv",
     "body": "const ${1:newArray} = ${2:array}.filter((${3:current}, ${4:index}, ${5:arr}) => ${5:arr}.indexOf(${3:current}) == ${4:index})$0",
     "description": "Array unique values"
