@@ -176,8 +176,8 @@ Below is a list of all available snippets and the triggers of each one. The `░
 
 ### Functions
 
-|  Trigger | Description                                     | Result JS                                                                  | Result TS                                                                         |
-| -------: | ----------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+|  Trigger  | Description                                    | Result JS                                                                  | Result TS                                                                         |
+| --------: | ---------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 |   `edaf→` | export default anonymous arrow function        | <code>export default (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>              | <code>export default (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>                     |
 |  `edaaf→` | export default async anonymous arrow function  | <code>export default async (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>        | <code>export default async (░) => {<br/>&nbsp;&nbsp;█<br/> }</code>               |
 |    `caf→` | const arrow function implicit return           | <code>const ░name = (░) => █</code>                                        | <code>const ░name = (░) => █</code>                                               |
