@@ -19,25 +19,61 @@
     "body": "const ${1:newArray} = ${2:array}.filter((${3:element}) => ${3:element}.${4:prop} !== ${5:value})$0",
     "description": "Array Filter Object compare not equal"
   },
+  "array.Sort.String.Asc": {
+    "prefix": "arssa",
+    "body": "${1:array}.${2|sort,toSorted|}((a, z) => a.localeCompare(z))$0",
+    "description": "Array sort string ascending"
+  },
+  "array.Sort.String.Desc": {
+    "prefix": "arssd",
+    "body": "${1:array}.${2|sort,toSorted|}((a, z) => z.localeCompare(a))$0",
+    "description": "Array sort string descending"
+  },
   "array.Sort.Number.Asc": {
     "prefix": "arsna",
-    "body": "${1:array}.sort((${2:a}, ${3:z}) => ${2:a} - ${3:z})$0",
-    "description": "Array sort (mutate) numbers ascending"
+    "body": "${1:array}.${2|sort,toSorted|}((a, z) => a - z)$0",
+    "description": "Array sort numbers ascending"
   },
   "array.Sort.Number.Desc": {
     "prefix": "arsnd",
-    "body": "${1:array}.sort((${2:a}, ${3:z}) => ${3:z} - ${2:a})$0",
-    "description": "Array sort (mutate) numbers descending"
+    "body": "${1:array}.${2|sort,toSorted|}((a, z) => z - a)$0",
+    "description": "Array sort numbers descending"
   },
-  "array.ToSorted.Number.Asc": {
-    "prefix": "artsna",
-    "body": "${1:array}.toSorted((${2:a}, ${3:z}) => ${2:a} - ${3:z})$0",
-    "description": "Array sort (not mutate) numbers ascending"
+  "array.Sort.Boolean.Asc": {
+    "prefix": "arsba",
+    "body": "${1:array}.${2|sort,toSorted|}((a, z) => Boolean(a) - Boolean(z))$0",
+    "description": "Array sort boolean ascending"
   },
-  "array.ToSorted.Number.Desc": {
-    "prefix": "artsnd",
-    "body": "${1:array}.toSorted((${2:a}, ${3:z}) => ${3:z} - ${2:a})$0",
-    "description": "Array sort (not mutate) numbers descending"
+  "array.Sort.Boolean.Desc": {
+    "prefix": "arsbd",
+    "body": "${1:array}.${2|sort,toSorted|}((a, z) => Boolean(z) - Boolean(a))$0",
+    "description": "Array sort boolean descending"
+  },
+  "array.Sort.Date.Asc": {
+    "prefix": "arsda",
+    "body": "${1:array}.${2|sort,toSorted|}((a, z) => new Date(a) - new Date(z))$0",
+    "description": "Array sort date ascending"
+  },
+  "array.Sort.Date.Desc": {
+    "prefix": "arsdd",
+    "body": "${1:array}.${2|sort,toSorted|}((a, z) => new Date(z) - newDate(a))$0",
+    "description": "Array sort date descending"
+  },
+  "array.Sort.Object": {
+    "prefix": "arso",
+    "body": [
+      "${1:array}.${2|sort,toSorted|}((a, z) => {",
+      "\tconst sort = {",
+      "\t\t${3:propString}: a.${3:propString}.localeCompare(z.${3:propString}),",
+      "\t\t${4:propNumber}: a.${4:propNumber} - z.${4:propNumber},",
+      "\t\t${5:propBoolean}: Boolean(a.${5:propBoolean}) - Boolean(z.${5:propBoolean}),",
+      "\t\t${6:propDate}: new Date(a.${6:propDate}) - new Date(z.${6:propDate}),",
+      "\t}",
+      "\t",
+      "\treturn sort.${3:propString} || -sort.${4:propNumber} || sort.${5:propBoolean} || sort.${6:propDate}",
+      "})$0"
+    ],
+    "description": "Array sort object by properties"
   },
   "array.UniqueValues": {
     "prefix": "aruv",

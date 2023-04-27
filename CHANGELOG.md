@@ -9,6 +9,16 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 3.4.0 - 2023/04/26
+
+### Added
+
+- array sort snippets for string, boolean, date and objects
+
+### Changed
+
+- `toSorted` snippets were merged with `sort`
+
 ## 3.3.0 - 2023/04/15
 
 ### Added
