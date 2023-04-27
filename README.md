@@ -81,6 +81,13 @@ Curly brackets aren't required if only one expression is present.
 
 Arrow functions do not have an arguments binding. But the same functionality can be achieved using rest parameters.
 
+```js
+const myFunction = (...args) => {
+  console.log(args);
+};
+myFunction(1, 2, 3); // Output: [1, 2, 3]
+```
+
 ### Use of this keyword
 
 Unlike regular functions, arrow functions do not have their own `this`. The value of `this` inside an arrow function remains the same throughout the lifecycle of the function and is always bound to the value of `this` in the closest non-arrow parent function.
@@ -156,10 +163,15 @@ Below is a list of all available snippets and the triggers of each one. The `░
 | `arfne→`   | filter not equal                     | `const ░newArray = ░array.filter((░element) => ░element !== ░value)█`                             |
 | `arfoeq→`  | filter object equal                  | `const ░newArray = ░array.filter((░element) => ░element.░prop === ░value)█`                       |
 | `arfone→`  | filter object not equal              | `const ░newArray = ░array.filter((░element) => ░element.░prop !== ░value)█`                       |
-| `arsna→`   | sort (mutate) number ascending       | `░array.sort((a, z) => a - z)█`                                                                   |
-| `arsnd→`   | sort (mutate) number descending      | `░array.sort((a, z) => z - a)█`                                                                   |
-| `artsna→`  | sort (not mutate) number ascending   | `░array.toSorted((a, z) => a - z)█`                                                               |
-| `artsnd→`  | sort (not mutate) number descending  | `░array.toSorted((a, z) => z - a)█`                                                               |
+| `arssa→`   | sort string ascending                | `░array.░sort((a, z) => a.localeCompare(z))█`                                                      |
+| `arssd→`   | sort string descending               | `░array.░sort((a, z) => z.localeCompare(a))█`                                                      |
+| `arsna→`   | sort number ascending                | `░array.░sort((a, z) => a - z)█`                                                                   |
+| `arsnd→`   | sort number descending               | `░array.░sort((a, z) => z - a)█`                                                                   |
+| `arsba→`   | sort boolean ascending               | `░array.░sort((a, z) => Boolean(a) - Boolean(z))█`                                                 |
+| `arsbd→`   | sort boolean descending              | `░array.░sort((a, z) => Boolean(z) - Boolean(a))█`                                                 |
+| `arsda→`   | sort date ascending                  | `░array.░sort((a, z) => new Date(a) - new Date(z))█`                                               |
+| `arsdd→`   | sort date descending                 | `░array.░sort((a, z) => new Date(z) - new Date(a))c`                                               |
+| `arso→`    | sort object by properties            | <code>░array.░sort((a, z) => {<br/>&nbsp;&nbsp;const sort = {<br/>&nbsp;&nbsp;&nbsp;&nbsp;░propString: a.░propString.localeCompare(z.░propString),<br/>&nbsp;&nbsp;&nbsp;&nbsp;░propNumber: a.░propNumber - z.░propNumber,<br/>&nbsp;&nbsp;&nbsp;&nbsp;░propBoolean: Boolean(a.░propBoolean) - Boolean(z.░propBoolean),<br/>&nbsp;&nbsp;&nbsp;&nbsp;░propDate: new Date(a.░propDate) - new Date(z.░propDate),<br/>&nbsp;&nbsp;}<br/><br/>&nbsp;&nbsp;return sort.░propString &#124;&#124; -sort.░propNumber &#124;&#124; sort.░propBoolean &#124;&#124; sort.░propDate<br>})█</code>  |
 | `aruv→`    | unique values                        | `const ░newArray = ░array.filter((░current, ░index, ░arr) => ░arr.indexOf(░current) == ░index)█`  |
 
 ### Functions
