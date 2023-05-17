@@ -9,6 +9,12 @@ Fixed       for any bug fixes.
 Security    to invite users to upgrade in case of vulnerabilities.
 -->
 
+## 3.5.0 - 2023/05/17
+
+### Added
+
+- array unsort or shuffle
+
 ## 3.4.0 - 2023/04/26
 
 ### Added

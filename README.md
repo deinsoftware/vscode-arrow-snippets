@@ -163,15 +163,16 @@ Below is a list of all available snippets and the triggers of each one. The `░
 | `arfne→`   | filter not equal                     | `const ░newArray = ░array.filter((░element) => ░element !== ░value)█`                             |
 | `arfoeq→`  | filter object equal                  | `const ░newArray = ░array.filter((░element) => ░element.░prop === ░value)█`                       |
 | `arfone→`  | filter object not equal              | `const ░newArray = ░array.filter((░element) => ░element.░prop !== ░value)█`                       |
-| `arssa→`   | sort string ascending                | `░array.░sort((a, z) => a.localeCompare(z))█`                                                      |
-| `arssd→`   | sort string descending               | `░array.░sort((a, z) => z.localeCompare(a))█`                                                      |
-| `arsna→`   | sort number ascending                | `░array.░sort((a, z) => a - z)█`                                                                   |
-| `arsnd→`   | sort number descending               | `░array.░sort((a, z) => z - a)█`                                                                   |
-| `arsba→`   | sort boolean ascending               | `░array.░sort((a, z) => Boolean(a) - Boolean(z))█`                                                 |
-| `arsbd→`   | sort boolean descending              | `░array.░sort((a, z) => Boolean(z) - Boolean(a))█`                                                 |
-| `arsda→`   | sort date ascending                  | `░array.░sort((a, z) => new Date(a) - new Date(z))█`                                               |
-| `arsdd→`   | sort date descending                 | `░array.░sort((a, z) => new Date(z) - new Date(a))c`                                               |
+| `arssa→`   | sort string ascending                | `░array.░sort((a, z) => a.localeCompare(z))█`                                                     |
+| `arssd→`   | sort string descending               | `░array.░sort((a, z) => z.localeCompare(a))█`                                                     |
+| `arsna→`   | sort number ascending                | `░array.░sort((a, z) => a - z)█`                                                                  |
+| `arsnd→`   | sort number descending               | `░array.░sort((a, z) => z - a)█`                                                                  |
+| `arsba→`   | sort boolean ascending               | `░array.░sort((a, z) => Boolean(a) - Boolean(z))█`                                                |
+| `arsbd→`   | sort boolean descending              | `░array.░sort((a, z) => Boolean(z) - Boolean(a))█`                                                |
+| `arsda→`   | sort date ascending                  | `░array.░sort((a, z) => new Date(a) - new Date(z))█`                                              |
+| `arsdd→`   | sort date descending                 | `░array.░sort((a, z) => new Date(z) - new Date(a))█`                                              |
 | `arso→`    | sort object by properties            | <code>░array.░sort((a, z) => {<br/>&nbsp;&nbsp;const sort = {<br/>&nbsp;&nbsp;&nbsp;&nbsp;░propString: a.░propString.localeCompare(z.░propString),<br/>&nbsp;&nbsp;&nbsp;&nbsp;░propNumber: a.░propNumber - z.░propNumber,<br/>&nbsp;&nbsp;&nbsp;&nbsp;░propBoolean: Boolean(a.░propBoolean) - Boolean(z.░propBoolean),<br/>&nbsp;&nbsp;&nbsp;&nbsp;░propDate: new Date(a.░propDate) - new Date(z.░propDate),<br/>&nbsp;&nbsp;}<br/><br/>&nbsp;&nbsp;return sort.░propString &#124;&#124; -sort.░propNumber &#124;&#124; sort.░propBoolean &#124;&#124; sort.░propDate<br>})█</code>  |
+| `arus→`    | unsort / shuffle                     | `░array.░sort(() => Math.random() - 0.5)█`                                                        |
 | `aruv→`    | unique values                        | `const ░newArray = ░array.filter((░current, ░index, ░arr) => ░arr.indexOf(░current) == ░index)█`  |
 
 ### Functions
