@@ -75,6 +75,11 @@
     ],
     "description": "Array sort object by properties"
   },
+  "array.Unsort": {
+    "prefix": "arus",
+    "body": "${1:array}.${2|sort,toSorted|}(() => Math.random() - 0.5)$0",
+    "description": "Array unsort or shuffle"
+  },
   "array.UniqueValues": {
     "prefix": "aruv",
     "body": "const ${1:newArray} = ${2:array}.filter((${3:current}, ${4:index}, ${5:arr}) => ${5:arr}.indexOf(${3:current}) == ${4:index})$0",
