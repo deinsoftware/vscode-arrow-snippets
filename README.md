@@ -1,8 +1,8 @@
 # Arrow Function Snippets
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/deinsoftware.arrow-function-snippets)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/deinsoftware.arrow-function-snippets)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
-[![Ratings](https://img.shields.io/visual-studio-marketplace/stars/deinsoftware.arrow-function-snippets)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
+[![Version](https://badgen.net/vs-marketplace/v/deinsoftware.arrow-function-snippets)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
+[![Installs](https://badgen.net/vs-marketplace/i/deinsoftware.arrow-function-snippets)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
+[![Ratings](https://img.shields.io/badge/ratings-5.0%20%E2%98%85-yellow)](https://marketplace.visualstudio.com/items?itemName=deinsoftware.arrow-function-snippets)
 [![license](https://img.shields.io/github/license/deinsoftware/vscode-arrow-snippets)](LICENSE.md)
 [![Open in VS Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/deinsoftware/vscode-arrow-snippets)
 
